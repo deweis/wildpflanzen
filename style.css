@@ -1,0 +1,11 @@
+.card .card-content {
+  padding: 0;
+}
+
+.collapsible {
+  box-shadow: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 0;
+}
