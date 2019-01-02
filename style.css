@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+.collapsible-header:hover {
+  filter: brightness(0.9);
+}
+
 /* make the cards pinterest like: Thank you https://codepen.io/mike-north/pen/MwVoYp?editors=0100*/
 .card-container {
   -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
