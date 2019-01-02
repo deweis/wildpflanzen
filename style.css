@@ -24,6 +24,11 @@
   filter: brightness(0.9);
 }
 
+.taste {
+  display: block;
+  padding: 10px;
+}
+
 .food-collapsible {
   padding: 7px;
 }
