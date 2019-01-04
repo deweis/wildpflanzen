@@ -26,6 +26,7 @@
 .header-months {
   justify-content: center;
   padding: 5px;
+  background: #eceff1; /* blue-grey lighten-5 */
 }
 
 .collapsible-header:hover {
