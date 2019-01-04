@@ -2,9 +2,12 @@
 :root {
   --color-flowers: #ffa726; /* orange lighten-1 */
   --color-leaves: #66bb6a; /* green lighten-1 */
+  --color-fruits: #ff7043; /* deep-orange lighten-1 */
   --color-roots: #8d6e63; /* brown lighten-1 */
+  --edible: #fff9c4; /* yellow lighten-4 */
   --edible-flowers: #ffe0b2; /* orange lighten-4 */
   --edible-leaves: #c8e6c9; /* green lighten-4 */
+  --edible-fruits: #ffccbc; /* deep-orange lighten-4 */
   --edible-roots: #d7ccc8; /* brown lighten-4 */
 }
 
@@ -18,6 +21,11 @@
   border-right: none;
   border-top: none;
   margin: 0;
+}
+
+.header-months {
+  justify-content: center;
+  padding: 5px;
 }
 
 .collapsible-header:hover {
@@ -41,11 +49,21 @@
   color: var(--color-leaves);
 }
 
+.fa-apple-alt {
+  color: var(--color-fruits);
+}
+
 .fa-carrot {
   color: var(--color-roots);
 }
 
-.roots-bottom {
+.edible {
+  font-weight: 700;
+  background: var(--edible);
+  opacity: 0.8;
+}
+
+.edible-bottom {
   border-bottom: none;
 }
 
@@ -59,13 +77,20 @@
   font-weight: 700;
   background: var(--edible-leaves);
 }
+
+.edible-fruits {
+  font-weight: 700;
+  background: var(--edible-fruits);
+}
+
 .edible-roots {
   font-weight: 700;
   background: var(--edible-roots);
 }
 
 /* make the cards pinterest like: Thank you https://codepen.io/mike-north/pen/MwVoYp?editors=0100*/
-.card-container {
+.card-container,
+.card {
   -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
   page-break-inside: avoid; /* Firefox */
   break-inside: avoid; /* IE 10+ */
