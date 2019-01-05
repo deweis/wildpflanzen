@@ -206,6 +206,31 @@ const showPlants = () => {
     /********************************************
      * Section INDICATOR
      */
+    const indicatorLi = document.createElement('li');
+    let ellenberg = '';
+
+    if (plants[i].ellenberg !== undefined) {
+      let arrEllenberg = [];
+      Object.keys(plants[i].ellenberg).forEach(function(key) {
+        arrEllenberg.push(`${key}:${plants[i].ellenberg[key]}`);
+      });
+      ellenberg = arrEllenberg.join(' | ');
+    }
+
+    indicatorLi.innerHTML = `
+      <div class="collapsible-header">
+        <i class="far fa-hand-point-right"></i>Als Zeiger
+      </div>
+      <div class="collapsible-body">
+        <span
+          >${plants[i].indicator}</span
+        ><br><br>
+        <div class="Ellenberg"><b>Ellenberg: </b><br>${
+          plants[i].ellenberg === undefined ? 'n/a' : ellenberg
+        }</div>
+      </div>
+    `;
+    cardContentList.appendChild(indicatorLi);
   }
 };
 
