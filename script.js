@@ -6,7 +6,7 @@ function formatMonths(addClass, edibleMonths) {
   const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
   let edible = months.map((x, i) =>
     edibleMonths.includes(i + 1)
-      ? `<span class="${addClass}">${x}</span>&nbsp;`
+      ? `<span class="${addClass}">${x}&nbsp;</span>`
       : `${x}&nbsp;`
   );
   return edible.join('');
@@ -100,9 +100,94 @@ const showPlants = () => {
     `;
     cardBodyLi.appendChild(edibleDiv);
 
+    const edibleUl = document.createElement('ul');
+    edibleUl.setAttribute('class', 'collapsible');
+    edibleUl.setAttribute('data-collapsible', 'accordion');
+    edibleDiv.appendChild(edibleUl);
+
     /*******************
      * Section EDIBLE - FLOWERS
      */
+    if (plants[i]['months-flowers'].length > 0) {
+      const edibleFlowers = document.createElement('li');
+      edibleFlowers.innerHTML = `
+      <div class="collapsible-header">
+        <i class="fas fa-haykal"></i></i>${formatMonths(
+          'edible-flowers',
+          plants[i]['months-flowers']
+        )}
+      </div>
+      <div class="collapsible-body">
+        <span>
+          ${plants[i].flowers}</span
+        >
+      </div>
+      `;
+      edibleUl.appendChild(edibleFlowers);
+    }
+
+    /*******************
+     * Section EDIBLE - LEAVES
+     */
+    if (plants[i]['months-leaves'].length > 0) {
+      const edibleLeaves = document.createElement('li');
+      edibleLeaves.innerHTML = `
+      <div class="collapsible-header">
+        <i class="fas fa-leaf"></i></i>${formatMonths(
+          'edible-leaves',
+          plants[i]['months-leaves']
+        )}
+      </div>
+      <div class="collapsible-body">
+        <span>
+          ${plants[i].leaves}</span
+        >
+      </div>
+      `;
+      edibleUl.appendChild(edibleLeaves);
+    }
+
+    /*******************
+     * Section EDIBLE - FRUITS
+     */
+    if (plants[i]['months-fruits'].length > 0) {
+      const edibleFruits = document.createElement('li');
+      edibleFruits.innerHTML = `
+      <div class="collapsible-header">
+        <i class="fas fa-apple-alt"></i></i>${formatMonths(
+          'edible-fruits',
+          plants[i]['months-fruits']
+        )}
+      </div>
+      <div class="collapsible-body">
+        <span>
+          ${plants[i].fruits}</span
+        >
+      </div>
+      `;
+      edibleUl.appendChild(edibleFruits);
+    }
+
+    /*******************
+     * Section EDIBLE - ROOTS
+     */
+    if (plants[i]['months-roots'].length > 0) {
+      const edibleRoots = document.createElement('li');
+      edibleRoots.innerHTML = `
+      <div class="collapsible-header">
+        <i class="fas fa-carrot"></i></i>${formatMonths(
+          'edible-roots',
+          plants[i]['months-roots']
+        )}
+      </div>
+      <div class="collapsible-body">
+        <span>
+          ${plants[i].roots}</span
+        >
+      </div>
+      `;
+      edibleUl.appendChild(edibleRoots);
+    }
 
     /********************************************
      * Section MEDICINAL
