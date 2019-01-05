@@ -10,7 +10,7 @@ const plants = [
       'Viola_tricolor_styvmorsviol.jpg'
     ],
     description:
-      'Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli, ist eine Pflanzenart innerhalb der Familie der Veilchengewächse (Violaceae).',
+      'Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli genannt, ist eine einjährige bis mehrjährige krautige Pflanze, die Wuchshöhen von 10 bis 40 Zentimetern erreicht.',
     'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     taste: 'Milder Grundgeschmack, salatartig und etwas aromatisch frisch.',
     'months-flowers': [4, 5, 6, 7, 8, 9],
@@ -66,6 +66,47 @@ const plants = [
       LF: 'N',
       LF_B: 'S'
     }
+  },
+  {
+    id: 'bellisPerennisL',
+    name: 'Gänseblümchen',
+    latin: 'Bellis Perennis L.',
+    'family-name': 'Korbblütengewächse',
+    'family-latin': 'Asteraceae',
+    images: [
+      'Daisies-Focus-alexmenk-wikipedia.jpg',
+      'Bellis_perennis_Sturm9.jpg'
+    ],
+    description:
+      'Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröserl oder schweizerisch Margritli genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von meist 4 bis 15 Zentimetern erreicht. Da es auf fast jeder Wiesenfläche wächst, zählt es zu den bekanntesten Pflanzenarten Mitteleuropas.',
+    'months-edible': [3, 4, 5, 6, 8, 9],
+    taste:
+      'Die Knospen sowie die nur halb geöffneten Blüten schmecken angenehm nussartig, die geöffneten Blüten dagegen leicht bitter, wodurch sie sich vorrangig als Salatbeigabe eignen. Der Grundgeschmack der Pflanze erinnert etwas an Feldsalat. Wichtiger Bestandteil von Wildsalaten und Frühjahrssuppen. Man kann die jungen Blätter, Knospen und Blüten aber auch gut unter Gemüse- und Spinatgerichte sowie unter Kräuterquark und Kräuterkäse mischen. Aus der Pflanze kann man auch Tee herstellen und Frischsaft gewinnen.',
+    'months-flowers': [3, 4, 5, 6],
+    flowers:
+      'Die noch nicht start behaarten Blütenknospen eignen sich als Salatzutat. Weiter entwickelte Blütenknospen schmecken im Salat oft zu intensiv; sie können gut als falsche Kapern eingelegt werden',
+    'months-leaves': [3, 4, 5],
+    leaves: 'Salate, Suppen, Gemüse- und Spinatgerichte. Quark.',
+    'months-fruits': [8, 9],
+    fruits:
+      'Roh oder geröstet kann man die Samen in Salate geben. Im Winter ergeben sie als Keimsaat auf der Fensterbank eine frische Vitaminquelle.',
+    'months-roots': [],
+    roots: '',
+    medical:
+      'Bei Katarrh, Hauterkrankungen und Leberleiden, zur Anregung des Stoffwechsels, der Blutbildung und der ableitenden Harnwege. Äusserlich gegen Akne und zur Wundbehandlung.',
+    indicator:
+      'Bevorzugte Standorte sind Weiden, Parkrasen und Gärten auf nährstoffreichem Untergrund, bewachsene Bahndämme; ein regelmäßiger Schnitt ist erforderlich, da die Gräser und Wildblumen sonst die niedrig wachsenden Gänseblümchen überwuchern. Da Bellis perennis eine Speicherpflanze ist, überlebt sie den Winter im Schnee. Auf landwirtschaftlich genutzten Wiesen ist sie auch Zeiger für verdichtete Böden und übernutzte Wiesen und Weiden.',
+    ellenberg: {
+      L: 8,
+      T: 'x',
+      K: 2,
+      F: 5,
+      R: 'x',
+      N: 6,
+      S: 0,
+      LF: 'H',
+      LF_B: 'W'
+    }
   }
 ];
 
@@ -77,16 +118,16 @@ const plants = [
     'family-name': '',
     'family-latin': '',
     images: [''],
-    description: '',
-    'months-edible': [],
+    description: '', // from wikipedia
+    'months-edible': [], // from table in book appendix
     taste: '',
-    'months-flowers': [],
+    'months-flowers': [], // from table in book appendix
     flowers: '',
-    'months-leaves': [],
+    'months-leaves': [], // from table in book appendix
     leaves: '',
-    'months-fruits': [],
+    'months-fruits': [], // from table in book appendix
     fruits: '',
-    'months-roots': [],
+    'months-roots': [], // from table in book appendix
     roots: '',
     medical: '',
     indicator: '',
