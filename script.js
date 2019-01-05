@@ -110,6 +110,7 @@ const showPlants = () => {
      */
     if (plants[i]['months-flowers'].length > 0) {
       const edibleFlowers = document.createElement('li');
+      edibleFlowers.setAttribute('class', 'edibleItem');
       edibleFlowers.innerHTML = `
       <div class="collapsible-header">
         <i class="fas fa-haykal"></i></i>${formatMonths(
@@ -131,6 +132,7 @@ const showPlants = () => {
      */
     if (plants[i]['months-leaves'].length > 0) {
       const edibleLeaves = document.createElement('li');
+      edibleLeaves.setAttribute('class', 'edibleItem');
       edibleLeaves.innerHTML = `
       <div class="collapsible-header">
         <i class="fas fa-leaf"></i></i>${formatMonths(
@@ -152,6 +154,7 @@ const showPlants = () => {
      */
     if (plants[i]['months-fruits'].length > 0) {
       const edibleFruits = document.createElement('li');
+      edibleFruits.setAttribute('class', 'edibleItem');
       edibleFruits.innerHTML = `
       <div class="collapsible-header">
         <i class="fas fa-apple-alt"></i></i>${formatMonths(
@@ -173,6 +176,7 @@ const showPlants = () => {
      */
     if (plants[i]['months-roots'].length > 0) {
       const edibleRoots = document.createElement('li');
+      edibleRoots.setAttribute('class', 'edibleItem');
       edibleRoots.innerHTML = `
       <div class="collapsible-header">
         <i class="fas fa-carrot"></i></i>${formatMonths(

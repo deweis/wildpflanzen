@@ -71,10 +71,6 @@
   opacity: 0.8;
 }
 
-.edible-bottom {
-  border-bottom: none;
-}
-
 .edible-flowers {
   font-weight: 700;
   background: var(--edible-flowers);
@@ -94,6 +90,10 @@
 .edible-roots {
   font-weight: 700;
   background: var(--edible-roots);
+}
+
+.edibleItem:last-child .collapsible-body {
+  border-bottom: none;
 }
 
 /* make the cards pinterest like: Thank you https://codepen.io/mike-north/pen/MwVoYp?editors=0100*/
