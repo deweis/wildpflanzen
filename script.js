@@ -1,7 +1,23 @@
+/**************************************************************************************************
+ * Helper Function to format the edible months according to the plant properties resp.
+ * section on the card (I.e. plant, flower, fruit etc.)
+ */
+function formatMonths(addClass, edibleMonths) {
+  const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+  let edible = months.map((x, i) =>
+    edibleMonths.includes(i + 1)
+      ? `<span class="${addClass}">${x}</span>&nbsp;`
+      : `${x}&nbsp;`
+  );
+  return edible.join('');
+}
+
+/**************************************************************************************************
+ * Go through the plants object (from plants.js) and add one card per plant
+ */
 const showPlants = () => {
   const plantsContainer = document.getElementById('plant-container');
 
-  // Add one card per plant in the plants object (from plants.js)
   for (let i = 0; i < plants.length; i++) {
     // Create and append the card
     const card = document.createElement('div');
@@ -9,7 +25,7 @@ const showPlants = () => {
     card.setAttribute('class', 'card');
     plantsContainer.appendChild(card);
 
-    /**
+    /********************************************
      * Create and append the card image
      */
     const cardImage = document.createElement('div');
@@ -23,6 +39,7 @@ const showPlants = () => {
     />
     <span class="card-title">${plants[i].name}</span>
     `;
+    // switch to the next image upon click
     cardImage.addEventListener('click', function() {
       const myString = this.children[0].src; // get the current image source
       const myRegexp = /img\/(.*)/;
@@ -34,7 +51,7 @@ const showPlants = () => {
     });
     card.appendChild(cardImage);
 
-    /**
+    /********************************************
      * Add the card content section
      */
     const cardContent = document.createElement('div');
@@ -46,7 +63,7 @@ const showPlants = () => {
     cardContentList.setAttribute('data-collapsible', 'accordion');
     cardContent.appendChild(cardContentList);
 
-    /**
+    /********************************************
      * Add the card content header
      */
     const cardHeader = document.createElement('li');
@@ -61,6 +78,20 @@ const showPlants = () => {
     </div>
     `;
     cardContentList.appendChild(cardHeader);
+
+    /********************************************
+     * Add the card content body
+     */
+    const cardBodyLi = document.createElement('li');
+    cardBodyLi.innerHTML = `
+    <div class="collapsible-header">
+      <i class="fas fa-utensils"></i>${formatMonths(
+        'edible',
+        plants[i]['months-edible']
+      )}
+    </div>
+    `;
+    cardContentList.appendChild(cardBodyLi);
 
     // Add the edible section
     // Add the medicinal section
