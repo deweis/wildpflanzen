@@ -4,7 +4,8 @@
   --color-leaves: #66bb6a; /* green lighten-1 */
   --color-fruits: #ff7043; /* deep-orange lighten-1 */
   --color-roots: #8d6e63; /* brown lighten-1 */
-  --edible: #fff9c4; /* yellow lighten-4 */
+  --edible: #fff;
+  --edible-font: green;
   --edible-flowers: #ffe0b2; /* orange lighten-4 */
   --edible-leaves: #c8e6c9; /* green lighten-4 */
   --edible-fruits: #ffccbc; /* deep-orange lighten-4 */
@@ -30,7 +31,8 @@
 .header-months {
   justify-content: center;
   padding: 5px;
-  background: #eceff1; /* blue-grey lighten-5 */
+  color: #90a4ae; /* #90a4ae blue-grey lighten-2 */
+  /*background: #eceff1;  blue-grey lighten-5 */
 }
 
 .collapsible-header:hover {
@@ -63,7 +65,8 @@
 }
 
 .edible {
-  font-weight: 700;
+  color: var(--edible-font);
+  font-weight: 900;
   background: var(--edible);
   opacity: 0.8;
 }
