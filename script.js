@@ -82,8 +82,8 @@ const showPlants = () => {
     /********************************************
      * Section EDIBLE
      */
-    const cardBodyLi = document.createElement('li');
-    cardBodyLi.innerHTML = `
+    const edibleLi = document.createElement('li');
+    edibleLi.innerHTML = `
     <div class="collapsible-header">
       <i class="fas fa-utensils"></i>${formatMonths(
         'edible',
@@ -91,14 +91,14 @@ const showPlants = () => {
       )}
     </div>
     `;
-    cardContentList.appendChild(cardBodyLi);
+    cardContentList.appendChild(edibleLi);
 
     const edibleDiv = document.createElement('div');
     edibleDiv.setAttribute('class', 'collapsible-body food-collapsible');
     edibleDiv.innerHTML = `
       <span class="taste">${plants[i].taste}</span>
     `;
-    cardBodyLi.appendChild(edibleDiv);
+    edibleLi.appendChild(edibleDiv);
 
     const edibleUl = document.createElement('ul');
     edibleUl.setAttribute('class', 'collapsible');
@@ -192,6 +192,16 @@ const showPlants = () => {
     /********************************************
      * Section MEDICINAL
      */
+    const medicinalLi = document.createElement('li');
+    medicinalLi.innerHTML = `
+      <div class="collapsible-header">
+        <i class="fas fa-medkit"></i>Als Medizin
+      </div>
+      <div class="collapsible-body">
+        <span>${plants[i].medicinal}</span>
+      </div>
+    `;
+    cardContentList.appendChild(medicinalLi);
 
     /********************************************
      * Section INDICATOR
