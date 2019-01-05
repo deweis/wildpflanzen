@@ -110,15 +110,15 @@ const plants = [
   }
 ];
 
-/*
+/* Data taken as mix from the book and wikipedia
 {
     id: '',
     name: '',
     latin: '',
     'family-name': '',
     'family-latin': '',
-    images: [''],
-    description: '', // from wikipedia
+    images: [''], 
+    description: '', 
     'months-edible': [], // from table in book appendix
     taste: '',
     'months-flowers': [], // from table in book appendix

@@ -26,7 +26,7 @@ const showPlants = () => {
     plantsContainer.appendChild(card);
 
     /********************************************
-     * Create and append the card image
+     * Create and append the CARD IMAGE
      */
     const cardImage = document.createElement('div');
     cardImage.setAttribute('id', `${plants[i].id}Image`);
@@ -52,7 +52,7 @@ const showPlants = () => {
     card.appendChild(cardImage);
 
     /********************************************
-     * Add the card content section
+     * Add the card content section - I.e. the wrapper
      */
     const cardContent = document.createElement('div');
     cardContent.setAttribute('class', 'card-content');
@@ -64,7 +64,7 @@ const showPlants = () => {
     cardContent.appendChild(cardContentList);
 
     /********************************************
-     * Add the card content header
+     * Section LATIN NAME / FAMILY NAME / PLANT DESCRIPTION
      */
     const cardHeader = document.createElement('li');
     cardHeader.innerHTML = `
@@ -80,7 +80,7 @@ const showPlants = () => {
     cardContentList.appendChild(cardHeader);
 
     /********************************************
-     * Add the card content body
+     * Section EDIBLE
      */
     const cardBodyLi = document.createElement('li');
     cardBodyLi.innerHTML = `
@@ -93,9 +93,24 @@ const showPlants = () => {
     `;
     cardContentList.appendChild(cardBodyLi);
 
-    // Add the edible section
-    // Add the medicinal section
-    // Add the indicator section
+    const edibleDiv = document.createElement('div');
+    edibleDiv.setAttribute('class', 'collapsible-body food-collapsible');
+    edibleDiv.innerHTML = `
+      <span class="taste">${plants[i].taste}</span>
+    `;
+    cardBodyLi.appendChild(edibleDiv);
+
+    /*******************
+     * Section EDIBLE - FLOWERS
+     */
+
+    /********************************************
+     * Section MEDICINAL
+     */
+
+    /********************************************
+     * Section INDICATOR
+     */
   }
 };
 
