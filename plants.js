@@ -10,7 +10,7 @@ const plants = [
       'Viola_tricolor_styvmorsviol.jpg'
     ],
     description:
-      'Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli genannt, ist eine einjährige bis mehrjährige krautige Pflanze, die Wuchshöhen von 10 bis 40 Zentimetern erreicht.',
+      'Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli genannt, ist eine einjährige bis mehrjährige krautige Pflanze, die Wuchshöhen von 10 bis 40 Zentimetern erreicht. Die Blütezeit reicht von April bis September.',
     'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     taste: 'Milder Grundgeschmack, salatartig und etwas aromatisch frisch.',
     'months-flowers': [4, 5, 6, 7, 8, 9],
@@ -36,7 +36,7 @@ const plants = [
     'family-latin': 'Betulaceae',
     images: ['Corylus_avellana-MPF-wikipedia.jpg', 'Corylus_avellana0.jpg'],
     description:
-      'Auch Haselstrauch oder Haselnussstrauch genannt, ein meist rund fünf Meter hoch werdender sommergrüner vierstämmiger Strauch. Die Haselnuss spielte in der Steinzeit als Nahrungsmittel eine wichtige Rolle. Sie ist sehr nährstoffreich und lässt sich gut lagern.',
+      'Die Hasel, auch Haselstrauch oder Haselnussstrauch genannt, ein meist rund fünf Meter hoch werdender sommergrüner vierstämmiger Strauch. Die Haselnuss spielte in der Steinzeit als Nahrungsmittel eine wichtige Rolle. Sie ist sehr nährstoffreich und lässt sich gut lagern. Die Blütezeit reicht von Januar bis März.',
     'months-edible': [2, 3, 4, 9],
     taste:
       'Der Grundgeschmack der Blätter und Blüten ist stumpf-erdig, der der Früchtte natürlich nussig.',
@@ -78,7 +78,7 @@ const plants = [
       'Bellis_perennis_Sturm9.jpg'
     ],
     description:
-      'Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröserl oder schweizerisch Margritli genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von meist 4 bis 15 Zentimetern erreicht. Da es auf fast jeder Wiesenfläche wächst, zählt es zu den bekanntesten Pflanzenarten Mitteleuropas.',
+      'Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröserl oder schweizerisch Margritli genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von meist 4 bis 15 Zentimetern erreicht. Da es auf fast jeder Wiesenfläche wächst, zählt es zu den bekanntesten Pflanzenarten Mitteleuropas. Die Blütezeit reicht von Januar bis November.',
     'months-edible': [3, 4, 5, 6, 8, 9],
     taste:
       'Die Knospen sowie die nur halb geöffneten Blüten schmecken angenehm nussartig, die geöffneten Blüten dagegen leicht bitter, wodurch sie sich vorrangig als Salatbeigabe eignen. Der Grundgeschmack der Pflanze erinnert etwas an Feldsalat. Wichtiger Bestandteil von Wildsalaten und Frühjahrssuppen. Man kann die jungen Blätter, Knospen und Blüten aber auch gut unter Gemüse- und Spinatgerichte sowie unter Kräuterquark und Kräuterkäse mischen. Aus der Pflanze kann man auch Tee herstellen und Frischsaft gewinnen.',
@@ -146,6 +146,49 @@ const plants = [
       R: 'x',
       N: '8',
       S: '1',
+      LF: 'H',
+      LF_B: 'W'
+    }
+  },
+  {
+    id: 'plantagoLanceolataL',
+    name: 'Spitzwegerich',
+    latin: 'Plantago Lanceolata L.',
+    'family-name': 'Wegerichgewächse',
+    'family-latin': 'Plantaginaceae',
+    images: [
+      'Spitzwegerich_(Plantago_lanceolata)-Hajotthu-wikipedia.jpg',
+      'Plantago_lanceolata_(Curtis_et_al._1777,_Flora_Londinensis_v2,_plate_10,_BHL-127331).jpg'
+    ],
+    description:
+      'Der Spitzwegerich, auch Spießkraut, Lungenblattl oder Schlangenzunge genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von 5 bis 50 Zentimetern erreicht. Die reichverzweigte Wurzel kann bis zu 60 cm in die Tiefe reichen. Die Blütezeit reicht von Mai bis September.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from table in book appendix
+    taste:
+      'Der Grundgeschmack der Pflanze, insbesondere der Blütenknospen, ist champignonartig. Alle anderen mitteleuropäischen Wegericharten (Plantago) sind ähnlich zu verwenden.',
+    'months-flowers': [5, 6, 7], // from table in book appendix
+    flowers:
+      'Die Blütenknospen können geknabbert werden, Salaten beigemischt, in der Pfanne gedünstet sowie in Öl oder in Essigwasser eingelegt werden. Sie sind eine wahre Delikatesse.',
+    'months-leaves': [4, 5, 6], // from table in book appendix
+    leaves:
+      'Aromatische Blätter von April bis Juni. Man sollte die zarteren Blätter der Rosettenmitte ernten. Quer zur Faser in Streifen schneiden, wegen ihrer starken Längsfaser. Für Salate und Gemüse, bsp. als Spinat und in Omeletts oder Rührei. Auch als Brotbelag, essbare Dekoration oder zum Entsaften. Auch in Spirituosen.',
+    'months-fruits': [8, 9, 10], // from table in book appendix
+    fruits:
+      'Mit den Samen können Gemüsegerichte verfeinert werden. Das in ihnen enthaltene Öl kann ausgepresst werden und als nussiges Öl für Salate und auf Toast verwendet werden.',
+    'months-roots': [1, 2, 3, 4, 10, 11, 12], // from table in book appendix
+    roots:
+      'Die feinästige Wurzel muss sorgfältig gewaschen werden. Kann klein geschnitten und mit anderem gewürfeltem Gemüse wie Tomaten, Paprika oder Karotten weich gekocht, leicht gesalzen und evtl. mit Ei oder Mehl gebunden als Gemüsefüllung von Teigtaschen und herzhaften Strudeln benutzt werden.',
+    medicinal:
+      'Seit der Antike eine der meistverwendeten Heilpflanzen. Auf 2 Teelöffel getrocknetes Kraut pro Tasse gibt man kochendes Wasser und lässt den Tee 15 Minuten ziehen. Alle Mitglieder der Wegerichgewächse wirken gegen Bakterien und sind erfrischend und reinigend. Bei Verletzungen, Hautentzündungen, Verbrennungen, Schwellungen und Insektenstichen wendet man ihn äusserlich an. Der Extrakt wirkt bei Augenentzündungen. Innerlich für Beschwerden der oberen Atemwege und Entzündungen im Mund und Rachen und auch bei Magenschleimhautentzündung, Reizdarm und Harnwegentzündungen. Die frischen, in der Hand zerriebenen Blätter können bei kleinen Wunden zum Blutstillen und bei Insektenstichen zur Erstversorgung genutzt werden.',
+    indicator:
+      'In Wiesen- und Rasengesellschaften unterschiedlicher Ausprägung auf Lehmböden bis in etwa 1900m Höhe. Er kommt häufig in Fettwiesen, in Parkrasen (dort vor allem in seiner mageren Ausbildungsform), an Wegen und in Äckern vor.',
+    ellenberg: {
+      L: '6',
+      T: 'x',
+      K: '3',
+      F: 'x',
+      R: 'x',
+      N: 'x',
+      S: '0',
       LF: 'H',
       LF_B: 'W'
     }
