@@ -107,6 +107,48 @@ const plants = [
       LF: 'H',
       LF_B: 'W'
     }
+  },
+  {
+    id: 'taraxacumOfficinale',
+    name: 'Löwenzahn',
+    latin: 'Taraxacum officinale',
+    'family-name': 'Korbblütengewächse',
+    'family-latin': 'Asteraceae',
+    images: [
+      'Loewenzahn_Taraxacum_officinale_joe_MiGo_wikipedia.jpg',
+      'Taraxacum_officinale_-_Köhler–s_Medizinal-Pflanzen-135.jpg'
+    ],
+    description:
+      'Der Löwenzahn, auch Wiesen-Kuhblume genannt, ist eine ausdauernde mehrjährige krautige Pflanze, die eine Wuchshöhe von 10 cm bis 30 cm erreicht und in allen Teilen einen weißen Milchsaft enthält. Seine bis zu 1 Meter (selten auch bis 2 Meter) lange, fleischige Pfahlwurzel ist außen dunkelbraun bis schwarz. Die 10 bis 30 cm langen Blätter sind eiförmig bis eilanzettlich, unregelmäßig stark gelappt und tief eingeschnitten und gezahnt. In Mitteleuropa ist die Hauptblütezeit von April bis Mai. In deutlich geringerer Anzahl erscheinen Blüten auch noch bis in den Herbst. Blüte nur bei Sonne geöffnet.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from table in book appendix
+    taste:
+      'Die Pflanze schmeckt chicoréeartig. Die Blüten schmecken süss und honigartig.',
+    'months-flowers': [3, 4, 5, 6, 7, 8, 9], // from table in book appendix
+    flowers:
+      'Längsgeschnittene Blütenstängel von Apr bis Sept als Salatzutat und Gemüse, nachdem man sie zuvor wie die Blätter in Salz oder Wasser hat ziehen lassen. Blütenblätter von Mrz bis Sept zur Herstellung von Gelee, Sirup oder Wein, zu Gemüse oder als Tee. Aus Blütenknospen Chutney oder eingelegt in Essig als Kapern oder gebraten als Gemüse. Abgeschnittene gelbe Blütenspitzen als Deko auf Salaten und Desserts.',
+    'months-leaves': [3, 4, 5, 6], // from table in book appendix
+    leaves:
+      'Die jungen, frischen Blätter als Salat. Fein geschnitten mit Salz oder in Wasser eine Stunden ziehen, um sie milder zu machen. Klein gehackt über Suppen und Eintöpfe streuen oder als Spinat, als Brotbelag, zu Kräuterkartoffeln, in Eierspeisen oder in Kräuterkäse.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [1, 2, 3, 9, 10, 11, 12], // from table in book appendix
+    roots:
+      ' Geschnitten als Salat anrichten oder als Gemüse verwenden. Aus getrockneten Wurzeln durch Rösten Kaffee-Ersatz.',
+    medicinal:
+      'Alt und gern genutzte medizinische Pflanze. Mildes Mittel zur Steigerung der Gallensekretion. Ganze Pflanze inkl. Wurzel harntreibend und hilfreich bei Leberbeschwerden, Gicht und rheumatischen Erkrankungen. Ebenfalls Blutreinigend, für Verdauungsbeschwerden und als mildes Abführmittel. Äusserliche bei Ekzemen und anderen Hauterkrankungen. Der milchige Saft kann gegen Warzen eingesetzt werden, sollte aber nicht in die Augen geraten.',
+    indicator:
+      'Auf Wiesen, Äckern und Weiden in gemässigtem Klima weltweit verbreitet.',
+    ellenberg: {
+      L: '7',
+      T: 'x',
+      K: 'x',
+      F: '5',
+      R: 'x',
+      N: '8',
+      S: '1',
+      LF: 'H',
+      LF_B: 'W'
+    }
   }
 ];
 
