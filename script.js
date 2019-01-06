@@ -212,9 +212,16 @@ const showPlants = () => {
      */
     const indicatorLi = document.createElement('li');
     let ellenberg = '';
+    let firstEllenberg = '';
+    let arrEllenberg = [];
 
     if (plants[i].ellenberg !== undefined) {
-      let arrEllenberg = [];
+      // get Ellenberg Details (from ellenberg.js)
+      firstEllenberg = getEllenberg(
+        Object.keys(plants[i].ellenberg)[0],
+        plants[i].ellenberg['L']
+      );
+
       Object.keys(plants[i].ellenberg).forEach(function(key) {
         arrEllenberg.push(`${key}:${plants[i].ellenberg[key]}`);
       });
@@ -229,9 +236,13 @@ const showPlants = () => {
         <span
           >${plants[i].indicator}</span
         ><br><br>
-        <div class="Ellenberg"><b>Ellenberg: </b><br>${
-          plants[i].ellenberg === undefined ? 'n/a' : ellenberg
-        }</div>
+        <div class="Ellenberg"><b>Ellenberg: </b>
+        <br>${plants[i].ellenberg === undefined ? 'n/a' : ellenberg}</div>
+        ${
+          plants[i].ellenberg === undefined
+            ? ''
+            : '<br>' + arrEllenberg[0] + ' = ' + firstEllenberg
+        }
       </div>
     `;
     cardContentList.appendChild(indicatorLi);
