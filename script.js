@@ -13,6 +13,22 @@ function formatMonths(addClass, edibleMonths) {
 }
 
 /**************************************************************************************************
+ * Helper Function to get next image of the array of images per plant
+ * I.e. loop through the array
+ */
+function nextImage(plantId, imageDiv) {
+  const imageSrc = imageDiv.children[0].src; // get the current image source
+  const myRegexp = /img\/(.*)/;
+  const imgName = myRegexp.exec(imageSrc)[1]; // extract the img name from the full source
+  const thePlantImages = plants.find(x => x.id === plantId).images;
+
+  let nextImg = thePlantImages.findIndex(x => x === imgName); // get the next image from the plants images
+
+  nextImg = nextImg === thePlantImages.length - 1 ? 0 : nextImg + 1; // start from the first again if at last
+  imageDiv.children[0].src = `img/${thePlantImages[nextImg]}`;
+}
+
+/**************************************************************************************************
  * Go through the plants object (from plants.js) and add one card per plant
  */
 const showPlants = () => {
@@ -41,14 +57,9 @@ const showPlants = () => {
     `;
     // switch to the next image upon click
     cardImage.addEventListener('click', function() {
-      const myString = this.children[0].src; // get the current image source
-      const myRegexp = /img\/(.*)/;
-      const imgName = myRegexp.exec(myString)[1]; // extract the img name from the full source
-
-      let nextImage = plants[i].images.findIndex(x => x === imgName); // get the next image from the plants images
-      nextImage = nextImage === plants[i].images.length - 1 ? 0 : nextImage + 1;
-      this.children[0].src = `img/${plants[i].images[nextImage]}`;
+      return nextImage(plants[i].id, this);
     });
+
     card.appendChild(cardImage);
 
     /********************************************
