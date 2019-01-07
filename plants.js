@@ -115,8 +115,9 @@ const plants = [
     'family-name': 'Korbblütengewächse',
     'family-latin': 'Asteraceae',
     images: [
-      'Loewenzahn_Taraxacum_officinale_joe_MiGo_wikipedia.jpg',
-      'Taraxacum_officinale_-_Köhler–s_Medizinal-Pflanzen-135.jpg'
+      'TaraxacumOfficinale_DWE.jpg',
+      'Taraxacum_officinale_-_Köhler–s_Medizinal-Pflanzen-135.jpg',
+      'Loewenzahn_Taraxacum_officinale_joe_MiGo_wikipedia.jpg'
     ],
     description:
       'Der Löwenzahn, auch Wiesen-Kuhblume genannt, ist eine ausdauernde mehrjährige krautige Pflanze, die eine Wuchshöhe von 10 cm bis 30 cm erreicht und in allen Teilen einen weißen Milchsaft enthält. Seine bis zu 1 Meter (selten auch bis 2 Meter) lange, fleischige Pfahlwurzel ist außen dunkelbraun bis schwarz. Die 10 bis 30 cm langen Blätter sind eiförmig bis eilanzettlich, unregelmäßig stark gelappt und tief eingeschnitten und gezahnt. In Mitteleuropa ist die Hauptblütezeit von April bis Mai. In deutlich geringerer Anzahl erscheinen Blüten auch noch bis in den Herbst. Blüte nur bei Sonne geöffnet.',
