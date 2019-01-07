@@ -116,7 +116,7 @@ const plants = [
     'family-latin': 'Asteraceae',
     images: [
       'TaraxacumOfficinale_DWE.jpg',
-      'Taraxacum_officinale_-_Köhler–s_Medizinal-Pflanzen-135.jpg',
+      'Taraxacum_officinale_-_Koehler-s_Medizinal-Pflanzen-135.jpg',
       'Loewenzahn_Taraxacum_officinale_joe_MiGo_wikipedia.jpg'
     ],
     description:
