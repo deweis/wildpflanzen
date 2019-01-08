@@ -193,6 +193,50 @@ const plants = [
       LF: 'H',
       LF_B: 'W'
     }
+  },
+  {
+    id: 'alliumUrsinumL',
+    name: 'Bärlauch',
+    latin: 'Allium Ursinum L.',
+    'family-name': 'Lauchgewächse',
+    'family-latin': 'Alliaceae',
+    images: [
+      'baerlauch_LisaCarter_wikipedia.jpg',
+      'Allium_ursinum_Flora_Batava_Volume_v11.jpg',
+      'Allium_ursinum_HC1_HolgerCasselmann_wiki.jpg'
+    ],
+    description:
+      'Der Bärlauch, auch Bärenlauch, Knoblauchspinat, wilder Knoblauch, Waldknoblauch, Rinsenknoblauch, Hundsknoblauch, Hexenzwiebel, Zigeunerlauch, Ramsen oder Waldherre genannt, ist eine Pflanzenart aus der Gattung Allium und somit verwandt mit Schnittlauch, Zwiebel und Knoblauch. Er ist eine ausdauernde krautige Pflanze, die eine Wuchshöhe von etwa 20 bis 30 Zentimetern erreicht. Die in Europa und Teilen Asiens vor allem in Wäldern verbreitete und häufige, früh im Jahr austreibende Pflanzenart ist ein geschätztes Wildgemüse und wird vielfach gesammelt. Die Blütezeit reicht von April bis Mai.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from table in book appendix
+    taste:
+      'Der Grundgeschmack der Pflanze ist scharf, intensiv knoblauchartig und aromatisch. Vorsicht! Die Pflanze ähnelt den gefährlich giftigen Pflanzen Herbstzeitlose und Maiglöckchen, deren Blätter jedoch nicht gestielt sind. Verwechslung mit Aronstab möglich. Alle anderen mitteleuropäischen Laucharten sind ähnlich verwendbar.',
+    'months-flowers': [4, 5, 6], // from table in book appendix
+    flowers:
+      'Die Blütenknospen lassen sich wie Antipasti in Öl, Essig oder Salzlake einlegen. Blüten als essbare Dekoration.',
+    'months-leaves': [3, 4], // from table in book appendix
+    leaves:
+      'Die stark nach Knoblauch duftenden Blätter können zu Pesto verarbeitet werden, in Kräuterquark, als Brotbelag, in Kräuterbutter, Kräuterkäse, Saucen und Gemüsegerichten.',
+    'months-fruits': [6], // from table in book appendix
+    fruits:
+      'Die noch grünen, runden Samen lassen sich wie grüner Pfeffer unter Weichkäse, Saucen oder Gemüsegerichte mischen. Die ausgereiften Samen trocknet man und mahlt sie zu einem pfeffrigen Trockengewürz.',
+    'months-roots': [1, 2, 5, 6, 7, 8, 9, 10, 11, 12], // from table in book appendix
+    roots:
+      'Nachdem sich die Blätter der Pflanze zersetzt haben, kann man die etwa 20cm tief in der Erde steckende Zwiebel einlegen oder, ähnlich der Knoblauchzehe, als scharfes Speisegewürz verwenden.',
+    medicinal:
+      'Das ganze Kraut wird arzneilich verwendet. Hilft aufgrund seiner antibakteriellen Eigenschaften bei Magen- und Darmstörungen, senkt den Blutdruck, den zu hohen Cholesterinspiegel, wirkt Gefässverkalkung entgegen und ist daher ein hervorragendes Mittel zur Vorbeugung von Herzinfarkt und Schlaganfall. Zusätzlich blutreinigend, enzündungshemmend, harntreibend, schleimlösend, Stoffwechsel anregend und allgemein stärkend.',
+    indicator:
+      'In feuchten und schattigen Lagen in krautreichen Laub- Bergmisch- oder Auenwäldern bis auf etwa 1000m Höhe. Bodenfruchtbarkeits- und Feuchtigkeitszeiger',
+    ellenberg: {
+      L: '2',
+      T: 'x',
+      K: '2',
+      F: '6',
+      R: '7',
+      N: '8',
+      S: '0',
+      LF: 'G',
+      LF_B: 'V'
+    }
   }
 ];
 
