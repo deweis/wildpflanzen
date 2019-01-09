@@ -1,4 +1,4 @@
-let drawings = 1; // Show drawings (1) or photographs (0) as default picture
+let drawings = 0; // Show drawings (1) or photographs (0) as default picture
 
 /**************************************************************************************************
  * Helper Function to format the edible months according to the plant properties resp.

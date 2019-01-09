@@ -109,6 +109,47 @@ const plants = [
     }
   },
   {
+    id: 'leucanthemumVulgareAgg',
+    name: 'Wiesen-Margerite',
+    latin: 'Leucanthemum Vulgare agg.',
+    'family-name': 'Korbblütengewächse',
+    'family-latin': 'Asteraceae',
+    images: [
+      'Leucanthemum_vulgare_Bluete-Mariofan13-wikipedia.jpg',
+      'ChrysanthemumLeucanthemum.jpg'
+    ],
+    description:
+      'Die Wiesen-Margerite ist eine mehrjährige, ausdauernde, tiefwurzelnde und krautige Pflanze, die Wuchshöhen von 30 bis 60 Zentimetern erreicht. Ihr kantiger Stängel ist aufrecht und meist unverzweigt. Die spatelförmigen Laubblätter sind wechselständig angeordnet. Die unteren Blätter sind meist grob gezähnt, die oberen weniger stark. Die körbchenförmigen Blüten der Margerite haben einen Durchmesser von vier bis sechs Zentimeter und verbreiten besonders beim Verwelken einen unangenehmen Geruch. Die Blütezeit reicht von Mai bis Oktober.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 9, 10, 11, 12], // from table in book appendix
+    taste:
+      'Der Grundgeschmack der Blüten und Triebe ähnelt dem Aroma von Zucchinischalen. Die Wurzeln schmecken nach Winterrüben.',
+    'months-flowers': [4, 5, 6], // from table in book appendix
+    flowers:
+      'Aus ganz jungen Blütentrieben lässt sich von April bis Mai gebratenes Gemüse bereiten. Von Mai bis Juni kann man die Blütenknospen und das gelbe Blüteninnere in Essigwasser oder Würzöl als Antipasti einlegen. Die weissen Strahlenblüten zupft man aus und bestreut damit Desserts, würzige Aufstriche, Salate oder Gemüsesuppen.',
+    'months-leaves': [3, 4], // from table in book appendix
+    leaves:
+      'Die Wiesen-Margerite überwintert in einer kompakten Blattrosette. Diese kann man im Frühjahr ernten und roh essen oder zu einem Gemüse-pürée zubereiten. Im März und April nutzt man die frischen, neuen Blätter gern für Salate und Frühjahrskräutermischungen.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [1, 2, 3, 9, 10, 11, 12], // from table in book appendix
+    roots: 'Eignen sich als Koch- und Backgemüse.',
+    medicinal:
+      'In der Volksmedizin wenig gebräuchlich. Man kann einen Tee aus den Blütenköpfen bereiten, der entkrampfend wirkt und bei Menstruationsbeschwerden und Darmkoliken einsetzbar ist. Er wirkt ferner adstringierend und hustenlindernd. Durch die adstringierende Wirkung wird die Gewebeoberfläche von Schleimhäuten (hier der Lunge) und Wudnen gefestigt und deren Sekretion verhindert.',
+    indicator:
+      'Auf warmen und basenreichen Magerrasen auf Lehm- und Ton-böden. Überwiegend auf stickstoffarmen, sonnigen bis halbschattigen, frischen bis halbtrockenen Wiesen, Weiden und Ruderalstandorten.',
+    ellenberg: {
+      L: '7',
+      T: 'x',
+      K: '3',
+      F: '4',
+      R: 'x',
+      N: '3',
+      S: '0',
+      LF: 'H',
+      LF_B: 'W'
+    }
+  },
+  {
     id: 'taraxacumOfficinale',
     name: 'Löwenzahn',
     latin: 'Taraxacum officinale',
