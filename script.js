@@ -1,3 +1,5 @@
+let drawings = 1; // Show drawings (1) or photographs (0) as default picture
+
 /**************************************************************************************************
  * Helper Function to format the edible months according to the plant properties resp.
  * section on the card (I.e. plant, flower, fruit etc.)
@@ -16,7 +18,7 @@ function formatMonths(addClass, edibleMonths) {
  * Helper Function to get next image of the array of images per plant
  * I.e. loop through the array
  */
-function nextImage(plantId, imageDiv) {
+function nextImage(plantId, imageDiv, indexImage) {
   const imageSrc = imageDiv.children[0].src; // get the current image source
   const myRegexp = /img\/(.*)/;
   const imgName = myRegexp.exec(imageSrc)[1]; // extract the img name from the full source
@@ -24,9 +26,26 @@ function nextImage(plantId, imageDiv) {
 
   let nextImg = thePlantImages.findIndex(x => x === imgName); // get the next image from the plants images
 
-  nextImg = nextImg === thePlantImages.length - 1 ? 0 : nextImg + 1; // start from the first again if at last
-  imageDiv.children[0].src = `img/${thePlantImages[nextImg]}`;
+  if (indexImage) {
+    nextImg = indexImage;
+  } else {
+    nextImg = nextImg === thePlantImages.length - 1 ? 0 : nextImg + 1; // start from the first again if at last
+  }
+
+  return (imageDiv.children[0].src = `img/${thePlantImages[nextImg]}`);
 }
+
+/**************************************************************************************************
+ * Change Pictures to drawings and vice versa upon title click
+ */
+document.getElementById('clickableTitle').addEventListener('click', function() {
+  drawings = drawings === 0 ? 1 : 0; // Change default of picture type shown
+  const imageNodes = document.querySelectorAll('.card-image');
+
+  imageNodes.forEach(node => {
+    nextImage(node.parentNode.id, node, drawings);
+  });
+});
 
 /**************************************************************************************************
  * Go through the plants object (from plants.js) and add one card per plant
@@ -49,9 +68,9 @@ const showPlants = () => {
     cardImage.setAttribute('class', 'card-image');
     cardImage.innerHTML = `
     <img
-      src="img/${plants[i].images[0]}"
+      src="img/${plants[i].images[drawings]}"
       alt="${plants[i].latin}"
-      id="${plants[i].images[0]}"
+      id="${plants[i].images[drawings]}"
     />
     <span class="card-title">${plants[i].name}</span>
     `;
