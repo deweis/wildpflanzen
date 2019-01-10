@@ -278,6 +278,47 @@ const plants = [
       LF: 'G',
       LF_B: 'V'
     }
+  },
+  {
+    id: 'cornusMasL',
+    name: 'Kornelkirsche',
+    latin: 'Cornus Mas L.',
+    'family-name': 'Hartriegelgewächse',
+    'family-latin': 'Cornaceae',
+    images: [
+      'Gele_kornoelje_TeunSpaans-wikipedia.jpg',
+      'Illustration_Cornus_mas0.jpg',
+      'Cornus_mas_A_Wouter Hagens-wikipedia.jpg'
+    ],
+    description:
+      'Die Kornelkirsche, auch Herlitze, Dürlitze, Hirlnuss, in Österreich auch Dirndl, Dirndling, Dirndlstrauch oder Gelber Hartriegel, in der Deutschschweiz Tierlibaum genannt, ist ein in Südeuropa und Teilen von Mitteleuropa weit verbreiteter Großstrauch oder Baum. Die Wuchshöhe beträgt im Alter von 25 Jahren gut 4 m, mit 50 Jahren erreicht sie knapp 8 m. Die Blütezeit reicht von Februar bis März. Durch die frühe Blütezeit ist die Kornelkirsche eine besonders wichtige Bienennährpflanze, durch die Früchte ein Vogelschutz- und -nährgehölz. Der Strauch eignet sich auch für regelmäßige, geschnittene Hecken. Es gibt eine Reihe Zuchtformen, so mit gelben oder gerandeten Blättern, mit weißen, gelben, violettroten oder kugeligen Früchten und mit Zwerg- oder Pyramidenwuchs.',
+    'months-edible': [2, 3, 4, 7, 8, 9, 10], // from table in book appendix
+    taste:
+      'Der Geschmack der Früchte ist sauer, johannisbeerartig bis süss. Die Blüten und Blätter geben Getränken in der beschriebenen Verarbeitung einen fruchtigen Geschmack.',
+    'months-flowers': [2, 3], // from table in book appendix
+    flowers: 'Als Aroma für Spirituosen oder als Tee.',
+    'months-leaves': [3, 4], // from table in book appendix
+    leaves: 'Mit anderen Kräutern gemischt als Tee.',
+    'months-fruits': [7, 8, 9, 10], // from table in book appendix
+    fruits:
+      'Die Früchte kann man wie Kirschen direkt vom Baum naschen. Sollten sich einfach lösen lassen oder von alleim vom Strauch fallen. Diese sind ausgereift und reichlich Süss. Sie sind dunkelrot. Unreife Früchte sind sehr sauer. Können zu Fruchtsäften, Kompott, Gelees oder Marmeladen verarbeitet werden. Den Saft für Wein, Schnaps oder Liköre und andere Spirituosen. Zuweilen schneidet man die Kerne heraus, halbiert sie und mit Zucker bestreut bis zu vier Tagen im Kühlschrank haltbar. Zur Bevorratung resp. Teezubereitung werden die entkernten Früchte auch getrocknet. Von Juli bis August eignen sich die reifen und unreifen Früchte zum Einlegen in Essig und Öl und erinnern so an eingelegte Oliven.<br>Aus den gerösteten Samen der Früchte kann auch ein röstbitterer Kaffee gemahlt werden.',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Frucht und Rinde wirken fiebersenkend und adstringierend. Früher erfolgt die Anwendung bei chronischen Darmerkrankungen und Durchfall. In gleicher Weise kann auch ein Tee aus den übrigen Pflanzenteilen (Blätter und Rinde) angewendet werden. Aus diesen kann auch eine wundheilende Salbe, die auch bei Krampfadern hilft, hergestellt werden.',
+    indicator:
+      'In lichten Eichenwäldern und sonnigem Gebüsch. Der wärmeliebende Strauch wächst wild vor allem auf sonnigen, buschbestandenen Hängen, in lichten Wäldern, an Waldrändern und in Hecken, in Auwäldern außerhalb des Überschwemmungsbereiches, häufig auf kalkhaltigen Böden. Er ist dabei nicht wählerisch und verträgt auch lichten Schatten.',
+    ellenberg: {
+      L: '6',
+      T: '7',
+      K: '4',
+      F: '4',
+      R: '8',
+      N: '4',
+      S: '0',
+      LF: 'N, P',
+      LF_B: 'S'
+    }
   }
 ];
 
