@@ -319,6 +319,47 @@ const plants = [
       LF: 'N, P',
       LF_B: 'S'
     }
+  },
+  {
+    id: 'potentillaReptansL',
+    name: 'Kriechendes Fingerkraut',
+    latin: 'Potentilla reptans L.',
+    'family-name': 'Rosengewächse',
+    'family-latin': 'Rosaceae',
+    images: [
+      'Potentilla_reptans_HansHillewaert-wikipedia.jpg',
+      'PotentillaReptans.jpg'
+    ],
+    description:
+      'Das Kriechende Fingerkraut, auch Kriechender Gänserich und Kriechender Gänsefuß genannt, ist eine ausdauernde krautige Pflanze. Sämtliche Stängel sind kriechend und an den Knoten bewurzelt. Die Ausläufer erreichen eine Länge von 30 bis 100 Zentimeter. Die Art besitzt eine dünne Pfahlwurzel, die bis zu 45 cm lang wird. Die lang gestielten Laubblätter sind fünfzählig gefingert, woher der Trivialname Fünffingerkraut (in Antike und Mittelalter griechisch pentafilon) rührt, und am Rand gezähnt. Die fünfzähligen Blüten enthalten fünf goldgelbe Kronblätter. Diese stehen einzeln auf einem langen, die Laubblätter meist überragenden Stiel. Die Blüte erreicht einen Durchmesser von 17 bis 20 Millimeter. Die Blütezeit reicht von Juni bis August.',
+    'months-edible': [4, 5, 6, 7, 8], // from table in book appendix
+    taste:
+      'Die kaum duftende Pflanze schmeckt mild, salatartig, ist jedoch weniger knackig, eher fester.',
+    'months-flowers': [6, 7, 8], // from table in book appendix
+    flowers:
+      'Wie alle Fingerkrautarten hat auch das Kriechende Fingerkraut die charakteristischen gelben Blüten. Als essbare Dekoration auf Brote oder in Salate.',
+    'months-leaves': [4, 5, 6], // from table in book appendix
+    leaves:
+      'Die ganz jungen Triebe, wenn sie noch kaum störende Blattfasern entwickelt haben, für Salate und fein gewiegt für Salatsaucen. Man kann sie auch gesalzen in Öl einlegen oder gehackt in Kräutermischungen und Kräuterkäse mischen. Gegart kann man aus ihnen Kräuterpüree oder Gemüsefüllungen bereiten.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Die Fingerkräuter sind seit alters bekannte Heilpflanzen. Das Kraut wirkt adstringierend und hat eine schmerzstillende und durchfallhemmende Wirkung. Wissenschaftlich anerkannt ist die innerliche Anwendung zur unterstützenden Behandlung von unspezifischen Durchfallerkrankungen, Bauch- und Unterleibsbeschwerden, auch bei schmerzhafter Menstruation, insbesondere wenn sie mit Krämpfen einhergehen. Ausserdem zum Gurgeln bei Blutungen und Entzündungen der Mundschleimhaut und des Zahnfleisches. Für einen Tee übergisst man 2 Teelöffel getrocknetes Kraut mit 250ml kochendem Wasser und lässt den Aufguss 10 Minuten ziehen. Volksmedizinisch werden die Wurzeln zum Beispiel bei Zahnfleischentzündung gekaut.',
+    indicator:
+      "An feuchten und nährstoffreichen Standorten auf Lehm- und Tonböden bis in etwa 1'000m Höhe. Die stickstoffliebende Pflanze gedeiht bevorzugt auf feuchten Wiesen, feuchten Ruderalfluren, ruderalen Schuttfluren (etwa Bahnschotter), Straßenböschungen, Ufern und Äckern. Im Wallis steigt sie bis auf 1'750m auf.",
+    ellenberg: {
+      L: '6',
+      T: '6',
+      K: '3',
+      F: '6',
+      R: '7',
+      N: '5',
+      S: '0',
+      LF: 'H',
+      LF_B: 'W'
+    }
   }
 ];
 
