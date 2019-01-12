@@ -243,7 +243,10 @@ const showPlants = () => {
     const indicatorLi = document.createElement('li');
     let ellenberg = '';
     let lightIndicator = '';
+    let moistIndicator = '';
     let acidIndicator = '';
+    let nitrogenIndicator = '';
+    let lifeFormIndicator = '';
     let arrEllenberg = [];
 
     if (plants[i].ellenberg !== undefined) {
@@ -259,9 +262,24 @@ const showPlants = () => {
         plants[i].ellenberg['L']
       );
 
+      moistIndicator = getEllenberg(
+        Object.keys(plants[i].ellenberg)[3],
+        plants[i].ellenberg['F']
+      );
+
       acidIndicator = getEllenberg(
         Object.keys(plants[i].ellenberg)[4],
         plants[i].ellenberg['R']
+      );
+
+      nitrogenIndicator = getEllenberg(
+        Object.keys(plants[i].ellenberg)[5],
+        plants[i].ellenberg['N']
+      );
+
+      lifeFormIndicator = getEllenberg(
+        Object.keys(plants[i].ellenberg)[7],
+        plants[i].ellenberg['LF'][0] // NOTE: only the first taken.. Fix: should loop through and add all!
       );
     }
 
@@ -278,12 +296,42 @@ const showPlants = () => {
         ${
           plants[i].ellenberg === undefined
             ? ''
-            : '<br><b>' + arrEllenberg[0] + '</b> = ' + lightIndicator
+            : '<br><u><b>Licht</b> (' +
+              arrEllenberg[0] +
+              ')</u><br>' +
+              lightIndicator
         }
         ${
           plants[i].ellenberg === undefined
             ? ''
-            : '<br><br><b>' + arrEllenberg[4] + '</b> = ' + acidIndicator
+            : '<br><br><u><b>Feuchtigkeit</b> (' +
+              arrEllenberg[3] +
+              ')</u><br>' +
+              moistIndicator
+        }
+        ${
+          plants[i].ellenberg === undefined
+            ? ''
+            : '<br><br><u><b>Säure</b> (' +
+              arrEllenberg[4] +
+              ')</u><br>' +
+              acidIndicator
+        }
+        ${
+          plants[i].ellenberg === undefined
+            ? ''
+            : '<br><br><u><b>Stickstoff</b> (' +
+              arrEllenberg[5] +
+              ')</u><br>' +
+              nitrogenIndicator
+        }
+        ${
+          plants[i].ellenberg === undefined
+            ? ''
+            : '<br><br><u><b>Lebensform</b> (' +
+              arrEllenberg[7] +
+              ')</u><br>' +
+              lifeFormIndicator
         }
       </div>
     `;

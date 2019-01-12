@@ -179,7 +179,7 @@ const plants = [
     medicinal:
       'Alt und gern genutzte medizinische Pflanze. Mildes Mittel zur Steigerung der Gallensekretion. Ganze Pflanze inkl. Wurzel harntreibend und hilfreich bei Leberbeschwerden, Gicht und rheumatischen Erkrankungen. Ebenfalls Blutreinigend, für Verdauungsbeschwerden und als mildes Abführmittel. Äusserliche bei Ekzemen und anderen Hauterkrankungen. Der milchige Saft kann gegen Warzen eingesetzt werden, sollte aber nicht in die Augen geraten.',
     indicator:
-      'Auf Wiesen, Äckern und Weiden in gemässigtem Klima weltweit verbreitet. Gilt als Zeiger für komprimierte, stickstoffreiche, lehmige und saure Böden',
+      'Auf Wiesen, Äckern und Weiden in gemässigtem Klima weltweit verbreitet. Gilt als Zeiger für komprimierte, stickstoffreiche und lehmige Böden',
     ellenberg: {
       L: '7',
       T: 'x',
