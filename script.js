@@ -242,20 +242,27 @@ const showPlants = () => {
      */
     const indicatorLi = document.createElement('li');
     let ellenberg = '';
-    let firstEllenberg = '';
+    let lightIndicator = '';
+    let acidIndicator = '';
     let arrEllenberg = [];
 
     if (plants[i].ellenberg !== undefined) {
-      // get Ellenberg Details (from ellenberg.js)
-      firstEllenberg = getEllenberg(
-        Object.keys(plants[i].ellenberg)[0],
-        plants[i].ellenberg['L']
-      );
-
+      // indicator overview
       Object.keys(plants[i].ellenberg).forEach(function(key) {
         arrEllenberg.push(`${key}:${plants[i].ellenberg[key]}`);
       });
       ellenberg = arrEllenberg.join(' | ');
+
+      // get Ellenberg Details (from ellenberg.js)
+      lightIndicator = getEllenberg(
+        Object.keys(plants[i].ellenberg)[0],
+        plants[i].ellenberg['L']
+      );
+
+      acidIndicator = getEllenberg(
+        Object.keys(plants[i].ellenberg)[4],
+        plants[i].ellenberg['R']
+      );
     }
 
     indicatorLi.innerHTML = `
@@ -271,7 +278,12 @@ const showPlants = () => {
         ${
           plants[i].ellenberg === undefined
             ? ''
-            : '<br>' + arrEllenberg[0] + ' = ' + firstEllenberg
+            : '<br><b>' + arrEllenberg[0] + '</b> = ' + lightIndicator
+        }
+        ${
+          plants[i].ellenberg === undefined
+            ? ''
+            : '<br><br><b>' + arrEllenberg[4] + '</b> = ' + acidIndicator
         }
       </div>
     `;
