@@ -156,8 +156,9 @@ const plants = [
     'family-name': 'Korbblütengewächse',
     'family-latin': 'Asteraceae',
     images: [
-      'TaraxacumOfficinale_DWE.jpg',
+      'TaraxacumOfficinale_DWE_20171013.jpg',
       'Taraxacum_officinale_-_Koehler-s_Medizinal-Pflanzen-135.jpg',
+      'TaraxacumOfficinale_DWE_20180911.jpg',
       'Loewenzahn_Taraxacum_officinale_joe_MiGo_wikipedia.jpg'
     ],
     description:
