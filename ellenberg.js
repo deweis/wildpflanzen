@@ -49,5 +49,5 @@ const data = {
 };
 
 function getEllenberg(figure, value) {
-  return data[figure][value].description;
+  return data[figure][value - 1].description;
 }
