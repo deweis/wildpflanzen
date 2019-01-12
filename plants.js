@@ -360,6 +360,48 @@ const plants = [
       LF: 'H',
       LF_B: 'W'
     }
+  },
+  {
+    id: 'oxalisAcetosellaL',
+    name: 'Waldsauerklee',
+    latin: 'Oxalis Acetosella L.',
+    'family-name': 'Sauerkleegewächse',
+    'family-latin': 'Oxalidaceae',
+    images: [
+      'Common_wood_sorrel_(aka)-wikipedia.jpg',
+      'Cleaned-Illustration_Oxalis_acetosella.jpg'
+    ],
+    description:
+      'Der Waldsauerklee ist eine ausdauernde krautige Pflanze, die Wuchshöhen von 5 bis 15 cm erreicht. Sie bildet als Überdauerungsorgan ein unterirdisches, kurzes Rhizom und eine reich verzweigte, fleischige Pfahlwurzel. Das lang gestielte Laubblatt ist dreiteilig, kleeartig gefiedert. Die Blätter sind etwas fleischig, grasgrün und schmecken säuerlich. Die drei Teilblätter sind verkehrt herzförmig. Die Blütezeit reicht von April bis Juni. Es handelt sich um die schattenverträglichste heimische Pflanzenart, die bei einem Minimum von 1/160 des Tageslichtes noch wachsen kann. Bei starker Sonnenbestrahlung verändert die Pflanze die Stellung ihrer Blätter, indem sie die Fiederblätter nach unten zusammenklappt. Hierdurch schützt sich der Waldsauerklee vor Wasserverlust infolge von Transpiration, da sich die Spaltöffnungen der Blattunterseiten aneinanderlegen. Es handelt sich beim Waldsauerklee um eine Reliktart; die meisten der etwa 800 Oxalis-Arten sind tropisch oder subtropisch verbreitet. ',
+    'months-edible': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    taste:
+      'Der Grundgeschmack der Pflanze ist zitronenartig sauer-erfrischend. Hinweis: Die Pflanze ist oxalsäurehaltig, jedoch kaum mehr als Spinat, Mangold oder Rhabarber. Oxalsäure kann über einen langen Zeitraum regelmässig eingenommen (mehrere Monate) zu einer Schädigung der Nieren führen. Oxalsäure ist wasserlöslich und kann durch Abkochen und Abgiessen des Kochwassers entfernt werden. Alle anderen mitteleuropäischen Sauerkleearten (Oxalis) sind in gleicher Weise verwendbar.',
+    'months-flowers': [4, 5], // from table in book appendix
+    flowers: 'Die weissen Blüten zum Zieren und Erfrischen von Suppen.',
+    'months-leaves': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    leaves:
+      'Die Blätter des Sauerklees lassen sich die ganze Vegetationsperiode über gut ernten. Sie werden kaum zäh. Am weichsten sind sie jedoch vor der Blüte von März bis April. Man nutzt sie als Zutat in Saucen, Salaten, Suppen und Gemüsesäften. Gern legt man sie auch in Zucker ein, um diesem eine erfrischende Note zu geben, oder trocknet sie als Gewürz. Aufgrund ihrer schönen Form eignen sie sich auch als essbare Dekoration.',
+    'months-fruits': [5], // from table in book appendix
+    fruits:
+      'Im Mai sammelt man die noch weichen Früchte, bevor sie im Juni zu hart werden, und nutzt sie als Gewürz zum Beispiel beim Einlegen von Oliven oder Kapern.',
+    'months-roots': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    roots:
+      'Beim Zupfen der Blätter kommen meistens die Wurzeln und Stiele mit. Man trenn sie von den Blättern, hackt sie fein und gibt sie in Gemüsegerichte.',
+    medicinal:
+      'Wurde früher von der Volksmedizin bei Skorbut und Hauterkrankungen eingesetzt. Homöopathisch bei Stoffwechselschwäche, Verdauungsstörungen, Erkrankungen von Leber und Galle und einer Neigung zur Steinbildung.',
+    indicator:
+      'In Mischwäldern auf leicht sauren Lehmböden bis in eine Höhe von etwa 2000 m. Waldsauerklee wächst auf sauren Waldböden an ausgesprochen schattigen und frischen bis feuchten Stellen in Laubmischwäldern und Nadelwäldern. Er kann auch tieferen Schatten ertragen.',
+    ellenberg: {
+      L: '1',
+      T: 'x',
+      K: '3',
+      F: '5',
+      R: '4',
+      N: '6',
+      S: '0',
+      LF: 'G',
+      LF_B: 'H'
+    }
   }
 ];
 
