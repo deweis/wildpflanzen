@@ -399,8 +399,8 @@ const plants = [
       R: '4',
       N: '6',
       S: '0',
-      LF: 'G',
-      LF_B: 'H'
+      LF: 'G, H',
+      LF_B: 'W'
     }
   }
 ];

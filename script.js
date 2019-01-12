@@ -247,6 +247,7 @@ const showPlants = () => {
     let acidIndicator = '';
     let nitrogenIndicator = '';
     let lifeFormIndicator = '';
+    let leafInduranceIndicator = '';
     let arrEllenberg = [];
 
     if (plants[i].ellenberg !== undefined) {
@@ -280,6 +281,11 @@ const showPlants = () => {
       lifeFormIndicator = getEllenberg(
         Object.keys(plants[i].ellenberg)[7],
         plants[i].ellenberg['LF'][0] // NOTE: only the first taken.. Fix: should loop through and add all!
+      );
+
+      leafInduranceIndicator = getEllenberg(
+        Object.keys(plants[i].ellenberg)[8],
+        plants[i].ellenberg['LF_B']
       );
     }
 
@@ -332,6 +338,14 @@ const showPlants = () => {
               arrEllenberg[7] +
               ')</u><br>' +
               lifeFormIndicator
+        }
+        ${
+          plants[i].ellenberg === undefined
+            ? ''
+            : '<br><br><u><b>Blattausdauer</b> (' +
+              arrEllenberg[8] +
+              ')</u><br>' +
+              leafInduranceIndicator
         }
       </div>
     `;

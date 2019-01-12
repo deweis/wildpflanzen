@@ -289,6 +289,28 @@ const data = {
       description:
         '<b>Vollparasit</b>, wie hp (<b>Halbparasit</b>), d.h. auf lebenden Pflanzen schmarotzend, aber ohne Blattgrün'
     }
+  ],
+  LF_B: [
+    {
+      indicator: 'I',
+      description:
+        '<b>Immergrün</b>, zu allen Jahreszeiten mit Blättern, die oft länger als 1 Jahr leben.'
+    },
+    {
+      indicator: 'W',
+      description:
+        '<b>Überwinternd grün</b>, oft mit grünen Blättern überwinternd, die aber meist im Frühjahr ersetzt werden.'
+    },
+    {
+      indicator: 'S',
+      description:
+        '<b>Sommergrün</b>, nur in der wärmeren Jahreszeit mit grünen Blättern.'
+    },
+    {
+      indicator: 'V',
+      description:
+        '<b>Vorsommergrün</b>, vom Vorfrühling bis zum Frühsommer grün, dann aber meist einziehend.'
+    }
   ]
 };
 
