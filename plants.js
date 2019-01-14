@@ -403,6 +403,48 @@ const plants = [
       LF: 'G, H',
       LF_B: 'W'
     }
+  },
+  {
+    id: 'stellariaMediaAgg',
+    name: 'Vogelmiere',
+    latin: 'Stellaria Media agg.',
+    'family-name': 'Nelkengewächse',
+    'family-latin': 'Caryophyllaceae',
+    images: [
+      'Chickweed_(aka)-wikipedia.jpg',
+      'Stellaria_spp_Sturm5.jpg',
+      'Vogelmiere-Rasbak-wikipedia.jpg'
+    ],
+    description: 'Vogel-Sternmiere. Die Blütezeit reicht von März bis Oktober.',
+    'months-edible': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    taste:
+      'Der Grundgeschmack ist sehr mild, ähnlich dem des Kopfsalates, jedoch aromatischer.<br>Bei der kleinen, flächenartig auftretenden Vogel-Sternmiere lassen sich kaum einzelne Pflanzen unterscheiden. Meistens erntet man sie in Büscheln von vielen Pflanzen. Sie ist komplett verwendbar, samt ihren Stängeln, Blüten und Fruchtkugeln. Die während der gesamten Vegetationsperiode sich immer wieder neu bildenden Samen keinem sehr gut auf jeder frischen Erde, zum Beispiel auch in einem Blumenkasten. So hat man ständig frische Pflanzen griffbereit.',
+    'months-flowers': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    flowers:
+      'Ganze Pflanze als delikater Salat oder als sehr zartes spinatartiges Gemüse zuzubereiten. Sie eignet sich allein als Hauptteil eines Gerichts, lässt sich aber auch mit anerem Gemüse kombinieren.',
+    'months-leaves': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    leaves:
+      'Ganze Pflanze als delikater Salat oder als sehr zartes spinatartiges Gemüse zuzubereiten. Sie eignet sich allein als Hauptteil eines Gerichts, lässt sich aber auch mit anerem Gemüse kombinieren.',
+    'months-fruits': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    fruits:
+      'Ganze Pflanze als delikater Salat oder als sehr zartes spinatartiges Gemüse zuzubereiten. Sie eignet sich allein als Hauptteil eines Gerichts, lässt sich aber auch mit anerem Gemüse kombinieren.',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Bei Husten, Asthma und Lungenerkrankungen eingesetzt, ausserdem zur Reinigung und Kräftigung des ganzen Organismus. Die Pflanze hat eine kühlende, entzündungshemmende, schmerzlindernde, verdauungsfördernde und leicht abführende Wirkung. Sie hilft bei Krämpfen, Leberbeschwerden, übermüdeten oder entzündeten Augen, Rheuma und Blasenkrankheiten. Äusserlich kann sie bei Hautausschlägen, Verbrennungen, Schürfwunden und kleineren Verletzungen eingesetzt werden. Homöopathisch bei Rheumatismus, Gelenkentzündungen, Bronchitis und Schuppenflechte.',
+    indicator:
+      'In Gärten, auf Äckern und auf anderen Kultur- und Brachflächen, z.B. an Strassen- und Wegrändern. Auf nährstoffreichen Lehmböden bis in eine Höhe von etwa 1900 m.',
+    ellenberg: {
+      L: '6',
+      T: 'x',
+      K: 'x',
+      F: 'x',
+      R: '7',
+      N: '8',
+      S: '0',
+      LF: 'T',
+      LF_B: 'W'
+    }
   }
 ];
 
