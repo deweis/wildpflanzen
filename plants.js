@@ -415,7 +415,8 @@ const plants = [
       'Stellaria_spp_Sturm5.jpg',
       'Vogelmiere-Rasbak-wikipedia.jpg'
     ],
-    description: 'Vogel-Sternmiere. Die Blütezeit reicht von März bis Oktober.',
+    description:
+      "Die Gewöhnliche Vogelmiere, auch Vogel-Sternmiere, Hühnerdarm (wohl in Bezug auf den kriechenden, runden und gewundenen Stängel), Hühnerscherbe oder Hustdarm genannt, ist eine einjährige krautige Pflanze. Ihre niederliegenden 3 bis 40 cm langen Stängel bilden oft kleinere Rasenteppiche aus. Der Querschnitt des einreihig behaarten Stängels ist rund. Die Laubblätter sind eiförmig und spitz. Die Blütezeit reicht von März bis Oktober. Sie ist sehr ausbreitungs- und vermehrungsfreudig und überzieht frisch bearbeitete Böden schnell mit einem Rasen. Eine Pflanze kann bis zu 15'000 Samen bilden, pro Jahr können darüber hinaus zwei bis drei Generationen wachsen. Selbst im Winter können neue Pflanzen aus den gekeimten Samen entstehen. Das Kraut und die Samen werden gern von Vögeln gefressen, worauf auch der deutsche Trivialname Bezug nimmt.",
     'months-edible': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
     taste:
       'Der Grundgeschmack ist sehr mild, ähnlich dem des Kopfsalates, jedoch aromatischer.<br>Bei der kleinen, flächenartig auftretenden Vogel-Sternmiere lassen sich kaum einzelne Pflanzen unterscheiden. Meistens erntet man sie in Büscheln von vielen Pflanzen. Sie ist komplett verwendbar, samt ihren Stängeln, Blüten und Fruchtkugeln. Die während der gesamten Vegetationsperiode sich immer wieder neu bildenden Samen keinem sehr gut auf jeder frischen Erde, zum Beispiel auch in einem Blumenkasten. So hat man ständig frische Pflanzen griffbereit.',
