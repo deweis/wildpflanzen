@@ -1,3 +1,18 @@
+/** TBD
+ * - Ellenberg:
+ *  - Collapsible
+ *  - Titles with progress bar or othe graphic resp. color
+ *
+ * - Add Buttons:
+ *  - "Aktuell"
+ *  - Dropdown: "Monat auswählen"
+ *  - "Zeichnungen"
+ *
+ * - Add Search field: "Suche Wildpflanze.."
+ *
+ * - Check on PWA (network only).. evtl. will design and new plants be added automatically.
+ */
+
 let drawings = 0; // Show drawings (1) or photographs (0) as default picture
 
 /**************************************************************************************************
