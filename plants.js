@@ -446,6 +446,49 @@ const plants = [
       LF: 'T',
       LF_B: 'W'
     }
+  },
+  {
+    id: 'acerPlatanoidesL',
+    name: 'Spitzahorn',
+    latin: 'Acer Platanoides L.',
+    'family-name': 'Ahorngewächse',
+    'family-latin': 'Aceraceae',
+    images: [
+      'Ahornbluete-Rabensteiner-wikipedia.jpg',
+      'Illustration_Acer_platanoides0.jpg',
+      'Acer_platanoides_seeds-M.violante-wikipedia.jpg'
+    ],
+    description:
+      'Der Spitzahorn (botanisch Spitz-Ahorn), auch Spitzblättriger Ahorn genannt, ist ein sommergrüner Baum, der durchschnittliche Wuchshöhen von 20 bis 30 Metern erreicht. Er kann etwa 150, maximal 200 Jahre alt werden. Seine Rinde ist in der Jugend glatt und blassbraun; im Alter ist die Borke dunkelbraun oder grau; die Struktur ist längsrissig und nicht schuppig. Die Blütezeit reicht von April bis Mai. Aufgrund seiner Widerstandsfähigkeit gegen Industriebelastung wird er gerne im Stadtbereich zur Begrünung verwendet. Garten- und Parkgestalter haben sich des Spitzahorns besonders angenommen. Es gibt eine Fülle verschiedenartiger Formen. Beliebt sind rotblättrige Züchtungen.',
+    'months-edible': [3, 4, 6, 7, 8, 9], // from table in book appendix
+    taste:
+      'Keimlinge und Früchte haben einen herben bis bitteren Geschmack, der Saft des Stammes ist wässrig-süss, die zarten Blätter und Blüten schmecken mild säuerlich bis süss.',
+    'months-flowers': [4], // from table in book appendix
+    flowers:
+      'Im April kann man die Blütenbüschel roh essen oder aus ihnen Salate zubereiten.',
+    'months-leaves': [3, 4], // from table in book appendix
+    leaves:
+      'Die jungen, zarten Blätter des Spitzahorns samt ihren noch weichen Blattstielen ergeben von März bis April eine Grundlage verschiedener Salate. Man kann sie auch zu Gemüsegerichten oder Suppen verarbeiten. Getrocknet werden sie im Winter in Suppen gegeben.<br>Von März bis April lässt sich der Saft des angeritzten Stammes nutzen (nur sehr massvoll nutzen, da Rindenverletzungen dem Baum erheblich schaden können). Man kann den Saft frisch trinken, oder ihn zu Wein, Essig und Sirup weiterverarbeiten. In Notzeiten wurde die weiche innere Rinde hinter der harten Borke im Frühjahr von gefällten Bäumen abgeschabt, getrocknet und zu Mehl emahlen und zum Strecken von Getreidemehl verwendet.',
+    'months-fruits': [3, 6, 7, 8, 9], // from table in book appendix
+    fruits:
+      'Die unreifen, zartgrünen Flügelfrüchte kann man unmittelbar nach der Blütezeit in Salzlake oder Gewürzessig zu "Pickles" einlegen.<br>Von Juni bis September kann man aus den ausgereiften Flügelfrüchten die Samen herausschälen und diese mit Gemüse kochen oder auch zu "Pickles" einlegen.<br>Im März findet man unter dem Baum die Keimlinge. Auch sie kann man einlegen.',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Volksmedizinisch wird der Saft oder ein Sud aus frischen Blättern bei Insektenstichen, Gicht, Geschwüren, Entzündungen, Fieber und geschwollenen Augen äusserlich angewendet.',
+    indicator:
+      'In Schlucht- und Hangwäldern sowie Eichen-Hainbuchen-Wäldern. Häufig trifft man ihn auch an Waldrändern und (wenn auch nicht so häufig) in Hecken an.',
+    ellenberg: {
+      L: '(4)',
+      T: '6',
+      K: '4',
+      F: 'x',
+      R: 'x',
+      N: 'x',
+      S: '0',
+      LF: 'P',
+      LF_B: 'S'
+    }
   }
 ];
 

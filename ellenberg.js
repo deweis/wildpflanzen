@@ -21,6 +21,11 @@ const data = {
         'Zwischen 3 (<b>Schattenpflanze</b>) und 5 (<b>Halbschattenpflanze</b>) stehend.'
     },
     {
+      indicator: '(4)',
+      description:
+        'Zwischen 3 (<b>Schattenpflanze</b>) und 5 (<b>Halbschattenpflanze</b>) stehend. Bezieht sich auf den Baumjungwuchs im Wald.'
+    },
+    {
       indicator: '5',
       description:
         '<b>Halbschattenpflanze</b>, nur ausnahmsweise im vollen Licht, meist aber bei mehr als 10% r.B.'
