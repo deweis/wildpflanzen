@@ -10,7 +10,7 @@ const plants = [
       'Viola_tricolor_styvmorsviol.jpg'
     ],
     description:
-      'Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli genannt, ist eine einjährige bis mehrjährige krautige Pflanze, die Wuchshöhen von 10 bis 40 Zentimetern erreicht. Die Blütezeit reicht von April bis September.',
+      'Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli genannt, ist eine einjährige bis mehrjährige krautige Pflanze, die Wuchshöhen von 10 bis 40 Zentimetern erreicht. Die Blütezeit reicht von April bis September. Diese gesunde Blume mit viel Vitamin C, Magnesium, Eisen und anderen wertvollen Inhaltsstoffen ist unglaublich vielseitig und eignet sich sowohl für herzhafte als auch süße Rezepte.',
     'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     taste: 'Milder Grundgeschmack, salatartig und etwas aromatisch frisch.',
     'months-flowers': [4, 5, 6, 7, 8, 9],
@@ -78,7 +78,7 @@ const plants = [
       'Bellis_perennis_Sturm9.jpg'
     ],
     description:
-      'Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröserl oder schweizerisch Margritli genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von meist 4 bis 15 Zentimetern erreicht. Da es auf fast jeder Wiesenfläche wächst, zählt es zu den bekanntesten Pflanzenarten Mitteleuropas. Die Blütezeit reicht von Januar bis November.',
+      'Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröserl oder schweizerisch Margritli genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von meist 4 bis 15 Zentimetern erreicht. Da es auf fast jeder Wiesenfläche wächst, zählt es zu den bekanntesten Pflanzenarten Mitteleuropas. Die Blütezeit reicht von Januar bis November.<br>Es streckt seinen zarten Kopf in Richtung Sonne, sobald die Schneedecke lichter wird und ist reich an Vitamin C, Magnesium, Eisen und anderen Vitalstoffen und eignet sich hervorragend als Deko auf vielen Speisen.',
     'months-edible': [3, 4, 5, 6, 8, 9],
     taste:
       'Die Knospen sowie die nur halb geöffneten Blüten schmecken angenehm nussartig, die geöffneten Blüten dagegen leicht bitter, wodurch sie sich vorrangig als Salatbeigabe eignen. Der Grundgeschmack der Pflanze erinnert etwas an Feldsalat. Wichtiger Bestandteil von Wildsalaten und Frühjahrssuppen. Man kann die jungen Blätter, Knospen und Blüten aber auch gut unter Gemüse- und Spinatgerichte sowie unter Kräuterquark und Kräuterkäse mischen. Aus der Pflanze kann man auch Tee herstellen und Frischsaft gewinnen.',
@@ -489,6 +489,53 @@ const plants = [
       LF: 'P',
       LF_B: 'S'
     }
+  },
+  {
+    id: 'glechomaHederaceaL',
+    name: 'Gewöhnlicher Gundermann',
+    latin: 'Glechoma Hederacea L.',
+    'family-name': 'Lippenblütengewächse',
+    'family-latin': 'Lamiaceae',
+    images: [
+      'GlechomaHederacea5b_ies-wikipedia.jpg',
+      'Illustration_Glechoma_hederacea0b.jpg',
+      'Glechoma_hederacea2_ies_FrankVincentz-wikipedia.jpg',
+      'GlechomaHederaceaLeaf_ChristianFischer_wikipedia.jpg'
+    ],
+    description:
+      'Der Gundermann, auch Echt-Gundelrebe, Gundelrebe oder Erdefeu genannt, ist eine wintergrüne, ausdauernde krautige Pflanze. Die Behaarung (Indument) der Pflanzenteile ist variabel: Häufig ist sie fast kahl, sie kann aber auch dicht weich behaart sein. Stängel und Blattunterseite sind häufig purpurn überlaufen. Die Blütezeit reicht von März bis Juni. Der Name Gundermann oder auch Gundelrebe rührt von der Heilkraft dieses Krautes bei Eiter, denn dieses wurde früher oft "Gund" genannt.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from kostbarenatur.net
+    taste:
+      'Der Geschmack der beim Zerreiben sehr wohlaromatisch und appetitanregend duftenden Pflanze ist herb-aromatisch. Die Blüten schmecken zart süsslich. Der Gundermann gehört, wie viele unserer Küchenkräuter (Pfefferminze, Thymian, Rosmarin, Bohnenkraut und andere), zu den Lippenblütlern. Er riecht und schmeckt aromatisch und wird auch “Wilde Petersilie” genannt. So vielfältig wie wir Petersilie verwenden, kann auch der Gundermann verwendet werden. Der Gundermann ist zwar für den Menschen ungiftig, aber für manche Tiere giftig, insbesondere Pferde.',
+    'months-flowers': [3, 4, 5, 6], // from kostbarenatur.net
+    flowers:
+      'Als essbare Dekoration können die Blüten zu Salaten, Aufstrichen oder als Aroma für Gemüse und Speiseöl verwendet werden.',
+    'months-leaves': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from kostbarenatur.net
+    leaves:
+      'Blätter als Aromaspender. Sie können roh zur Erfrischung des Atems gegessen oder zum Würzen von Tee, Kräuterlikör, Kräuterwein, Schnaps und Bier verwendet werden oder als Aroma für Würzöle. Zarte Blätter und zarte Triebspitzen sind eine gute Zutat für Salate, Suppen, Eierspeisen (Omelett, Rührei), Quiche, Eintöpfe, Kräuterkäse, Kräuterbutter oder Kräuterquark.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Volksmedizinisch bei Magen- und Darmkatarrhen, Blasenleiden, Leberbeschwerden und grippalen Infekten. Dem Gundermann werden ferner ausgleichende Wirkungen auf den Stoffwechsel nachgesagt. Vorzugsweise sollte die frische Pflanze genutzt werden. Man kann sie auch in Pflanzenöl einlegen und das so hergestellte Öl zur Behandlung von Wunden oder zur Hautpflege verwenden. In der Traditionellen Chinesischen Medizin wird die Pflanze zur Behandlung bei Störungen im Dickdarm, in der Blase und in den Lungen eingesetzt.',
+    indicator:
+      "Der Gundermann wächst in Bodennähe und kriecht die Erde entlang. Auf nährstoffreichen Wiesen, Weiden und an Heckenrändern auf Lehmböden bis in eine Höhe von etwa 1'400 m. Die Pflanze ist das ganze Jahr über zu finden und wächst auch unter der Schneedecke weiter. Der Gundermann kommt bevorzugt auf feuchten, schweren, fruchtbaren sowie kalkhaltigen Böden vor.",
+    ellenberg: {
+      L: '6',
+      T: '6',
+      K: '3',
+      F: '6',
+      R: 'x',
+      N: '7',
+      S: '0',
+      LF: 'G, H',
+      LF_B: 'W'
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/gundermann/'
+    ],
+    colors: ['blau', 'violett']
   }
 ];
 

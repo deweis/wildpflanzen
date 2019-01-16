@@ -319,6 +319,7 @@ const data = {
   ]
 };
 
+// LF indicator change to arrays in plants and accordingly in script as several are possible (I.e. Gundermann)
 function getEllenberg(figure, value) {
   const entry = data[figure].find(x => x.indicator == value);
 
