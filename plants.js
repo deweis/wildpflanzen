@@ -416,7 +416,7 @@ const plants = [
       'Vogelmiere-Rasbak-wikipedia.jpg'
     ],
     description:
-      "Die Gewöhnliche Vogelmiere, auch Vogel-Sternmiere, Hühnerdarm (wohl in Bezug auf den kriechenden, runden und gewundenen Stängel), Hühnerscherbe oder Hustdarm genannt, ist eine einjährige krautige Pflanze. Ihre niederliegenden 3 bis 40 cm langen Stängel bilden oft kleinere Rasenteppiche aus. Der Querschnitt des einreihig behaarten Stängels ist rund. Die Laubblätter sind eiförmig und spitz. Die Blütezeit reicht von März bis Oktober. Sie ist sehr ausbreitungs- und vermehrungsfreudig und überzieht frisch bearbeitete Böden schnell mit einem Rasen. Eine Pflanze kann bis zu 15'000 Samen bilden, pro Jahr können darüber hinaus zwei bis drei Generationen wachsen. Selbst im Winter können neue Pflanzen aus den gekeimten Samen entstehen. Das Kraut und die Samen werden gern von Vögeln gefressen, worauf auch der deutsche Trivialname Bezug nimmt.",
+      "Die Gewöhnliche Vogelmiere, auch Vogel-Sternmiere, Hühnerdarm (wohl in Bezug auf den kriechenden, runden und gewundenen Stängel), Hühnerscherbe oder Hustdarm genannt, ist eine einjährige krautige Pflanze. Sie ist sehr reich an Vitaminen A, B und C und liefert weit mehr Eisen, Kalium, Kalzium und Magnesium als heimisches Kulturgemüse. Außerdem kann sie bei Husten, Lungenleiden und Rheumabeschwerden Linderung verschaffen. Ihre niederliegenden 3 bis 40 cm langen Stängel bilden oft kleinere Rasenteppiche aus. Der Querschnitt des einreihig behaarten Stängels ist rund. Die Laubblätter sind eiförmig und spitz. Die Blütezeit reicht von März bis Oktober. Sie ist sehr ausbreitungs- und vermehrungsfreudig und überzieht frisch bearbeitete Böden schnell mit einem Rasen. Eine Pflanze kann bis zu 15'000 Samen bilden, pro Jahr können darüber hinaus zwei bis drei Generationen wachsen. Selbst im Winter können neue Pflanzen aus den gekeimten Samen entstehen. Das Kraut und die Samen werden gern von Vögeln gefressen, worauf auch der deutsche Trivialname Bezug nimmt.",
     'months-edible': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
     taste:
       'Der Grundgeschmack ist sehr mild, ähnlich dem des Kopfsalates, jedoch aromatischer.<br>Bei der kleinen, flächenartig auftretenden Vogel-Sternmiere lassen sich kaum einzelne Pflanzen unterscheiden. Meistens erntet man sie in Büscheln von vielen Pflanzen. Sie ist komplett verwendbar, samt ihren Stängeln, Blüten und Fruchtkugeln. Die während der gesamten Vegetationsperiode sich immer wieder neu bildenden Samen keinem sehr gut auf jeder frischen Erde, zum Beispiel auch in einem Blumenkasten. So hat man ständig frische Pflanzen griffbereit.',
@@ -536,6 +536,55 @@ const plants = [
       'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/gundermann/'
     ],
     colors: ['blau', 'violett']
+  },
+  {
+    id: 'urticaDioicaL',
+    name: 'Grosse Brennnessel',
+    latin: 'Urtica Dioica L.',
+    'family-name': 'Brennnesselgewächse',
+    'family-latin': 'Urticaceae',
+    images: [
+      'GrosseBrennnessel-wikipedia.jpg',
+      'Illustration_Urtica_dioica0.jpg'
+    ],
+    description:
+      'Die Grosse Brennnessel ist eine zweihäusige, ausdauernde krautige Pflanze, die Wuchshöhen von 30 bis 300 Zentimeter erreicht. Sie wurzelt bis 70 Zentimeter tief. Die Blütezeit reicht von Juni bis Oktober. Brennnesseln wachsen im Frühjahr rasant und setzen sich schnell gegen andere lichtsuchende Pflanzen durch. Auch in milden Wintern findet man des öfteren junge Triebe und kann sie für die Ernährung nutzen. Sie sind vollgepackt mit Vitaminen, Eisen und Eiweiß und sind ein wahrer Segen für die Gesundheit. Sie ist, ein wertvolles Nahrungsmittel mit vielen Vitaminen, Mineralstoffen und Spurenelementen, eine große und vielfältige Heilerin, eine wunderbare Düngepflanze für stark zehrende Pflanzen.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from table in book appendix and others..
+    taste:
+      'Die Brennnessel ist im Grundgeschmack spinatartig, jedoch aromatischer und würziger. Die Samen haben einen nussigen Geschmack.',
+    'months-flowers': [5, 6], // from table in book appendix and others
+    flowers:
+      'Im Frühsommer lassen sich die Blütenknospen gut für einen Salat nutzen.',
+    'months-leaves': [3, 4, 5, 6, 7], // from table in book appendix, kostbarenatur.net, https://www.zentrum-der-gesundheit.de/brennnessel-blaetter-ia.html
+    leaves:
+      'Die Brennnessel ist eine alte Gemüsepflanze, deren Blätter meistens wie Spinat zubereitet gegessen wurden. Aber auch für Eierspeisen, Teigmantelgerichte, als Würzkraut und als Grundlage von Gemüsesäften und Saucen sowie als Aroma für Getränke wie Bier und Tee. Man kann aus der Brennnessel weitere Gemüsegerichte, Füllungen und Pesto bereiten. Die Triebspitzen und zarten, jungen Blätter müssen etwa 3 Sekunden blanchiert, fein gewiegt oder vorsichtig mit einem Nudelholz abgerollt werden, damit sie ihre Brennhaare verlieren. Dann eignen sie sich auch roh für Salate. Sie lassen sich an einem luftigen Platz gut trocknen und als Mineralstofflieferant für den Winter gut aufbewahren.<br> Der beste Zeitpunkt zur Ernte ist dann gekommen, wenn die Brennnessel Kniehöhe noch nicht übersteigt und ihre Hauptstängel noch weich und geschmeidig sind. Ernten Sie Brennnesselblätter (und auch andere Heilpflanzen) nicht, wenn es geregnet hat. Sie verlieren dabei an Aroma und weisen auch einen niedrigeren Wirkstoffgehalt auf als an trockenen Tagen. Warten Sie also auch bei schönem Wetter ab, bis der Tau getrocknet ist und schreiten Sie dann zur Ernte.',
+    'months-fruits': [7, 8, 9, 10], // from table in book appendix and kostbarenatur.net, , http://www.kraeuterfrau.ch/archiv/brennnessel.html
+    fruits:
+      'Geröstet oder getrocknet sind die Samen als Trockengewürz zu verwenden. Sowohl die noch grünen Samen, von Juli bis August, als auch die reifen Samen, im Frühherbst, kann man in Kräuterkäse geben. Getrocknet liefern sie auch eine wertvolle Eiweißquelle für den Winter. Ganz leicht lässt sich aus ihnen ein wertvolles Proteinpulver herstellen, welches nicht nur hochwertige Eiweiße enthält, sondern auch noch eine ganze Reihe Vitamine, Mineralstoffe und Spurenelemente.',
+    'months-roots': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from https://www.brennessel-tee.com, https://eatsmarter.de/lexikon/warenkunde/kraeuter/brennnessel
+    roots:
+      'Wie alle Teile der Brennessel kann man auch die Wurzeln essen. Sie haben im Gegensatz zu Blättern und Stängeln sogar ganz eigene Wirkstoffe. Allerdings ist der Geschmack der Wurzeln äußerst bitter. Brennesselwurzel sammeln kann man das ganze Jahr über, solange der Boden nicht gefroren ist. Es ist allerdings zu bemerken, dass wenn man die Wurzeln in einer Trockenphase erntet, das Trocknen wesentlich schneller geht. Die beste Zeit zum Ernten der wirkstoffreichen Wurzeln von Brennnessel ist der Herbst.',
+    medicinal:
+      'Die ganze Pflanze einschliesslich er Samen wird zur Behandlung von rheumatischen Beschwerden und Verdauungsleiden verwendet. Die leicht harntreibende Wirkung wirkt positiv bei Nierenleiden. Volksmedizinisch wird sie innerlich zur Blutbildung und zur Erhöhung der Enzymproduktion der Bauchspeicheldrüse verabreicht. Die Brennnessel wird auch bei Gallenerkrankungen eingesetzt. Äusserlich wendet man sie bei Kopfschuppen und fettigem Haar an. Die blutreinigende und entgiftende Wirkung macht man sich seit Urzeiten für Frühjahrskuren zunutze. Die Pflanze enthält Enzyme und pflanzliche Hormone (Phytohormone), die eine krebsvorbeugende Wirkung haben. Sie senkt den Blutzuckerspiegel, hemmt Entzündungen und lindert Prostatabeschwerden. Die zerstossenen Früchte werden volksmedizinisch äusserlich bei Rheuma und Hautleiden und innerlich als Tonikumn un Biostimulans verwendet.',
+    indicator:
+      'Nährstoffreiche Standorte im Umkreis von Siedlungen, am Waldrand und im Auenwald. Die Grosse Brennnessel ist ein typischer Stickstoffzeiger und wurde durch Nährstoffeintrag (Eutrophierung) und Entwässerung von Auwäldern oft übermäßig stark gefördert, besonders im Saumbereich der Wälder.',
+    ellenberg: {
+      L: 'x',
+      T: 'x',
+      K: 'x',
+      F: '6',
+      R: '7',
+      N: '9',
+      S: '0',
+      LF: 'H',
+      LF_B: 'S'
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/grosse-brennnessel/',
+      'https://www.zentrum-der-gesundheit.de/brennnessel-blaetter-ia.html',
+      'https://www.brennessel-tee.com'
+    ],
+    colors: ['grün', 'weiss']
   }
 ];
 
