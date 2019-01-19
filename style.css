@@ -114,6 +114,10 @@ h3 {
   overflow: visible;
 }
 
+footer a {
+  margin: 5px;
+}
+
 @media (min-width: 601px) {
   .card-container {
     -webkit-column-count: 2;
