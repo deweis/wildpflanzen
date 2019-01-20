@@ -585,6 +585,95 @@ const plants = [
       'https://www.brennessel-tee.com'
     ],
     colors: ['grün', 'weiss']
+  },
+  {
+    id: 'lamiumMaculatumL',
+    name: 'Gefleckte Taubnessel',
+    latin: 'Lamium Maculatum L.',
+    'family-name': 'Lippenblütengewächse',
+    'family-latin': 'Lamiaceae',
+    images: [
+      'Gefleckte_Taubnessel_artMechanic-wikipedia.jpg',
+      'Lamium_maculatum-Flora_Batava-Volume_v9.jpg',
+      'Lamium_maculatum_MdE-wikipedia.jpg',
+      '2015_Lamium_maculatum_footpath-Kreuzschnabel-wikipdia.jpg'
+    ],
+    description:
+      'Die sehr variable Gefleckte Taubnessel wächst meist als ausdauernde krautige Pflanze, selten als einjährige Sommerpflanze. Sie ist sommergrün oder wintergrün. Ihre Wuchshöhe schwankt zwischen 20 und 80 cm. Die Blühfähigkeit ist bereits im ersten Wuchsjahr gegeben.Die Blütezeit reicht von März bis September. Sie ist nicht mit der Brennnessel verwandt. Namensgebend sowohl für den wissenschaftlichen als auch ihren deutschen Trivialnamen gilt die gefleckte Unterlippe.',
+    'months-edible': [2, 3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    taste:
+      'Das Taubnesselkraut, die Keimlinge und die feinen Wurzeln haben einen feinwürzigen Pilzgeschmack. Die Behaarung ist an zarten Pflanzenteilen nicht störend. Andere mitteleuropäische Taubnesselarten sind ebenso verwendbar.',
+    'months-flowers': [3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    flowers:
+      'Die Blüten eignen sich für süsse Desserts, aber auch zusammen mit den Blättern als dekoratives Gewürz in herzhaft bunter Kräuterbutter und als krönender Abschluss über Salaten.',
+    'months-leaves': [2, 3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    leaves:
+      'Das Kraut der Taubnesseln ist uns nahezu die ganze Vegetationsperiode über als hervorragende Grundlage für schmackhafte, aromatische Teemischungen bekannt. Besonders junge Blätter und Triebspitzen bieten sich vor der Blüte ab Februar und noch während der Hauptblüte im April als Salat an. Als Gemüse gekocht sind die Blätter und Triebspitzen relativ mild und besonders gut als Suppengemüse geeignet. Sie können auch als spinatähnliches Gemüse oder als Hauptgemüsezutat eines Auflaufes zubereitet werden.',
+    'months-fruits': [5, 6, 7, 8, 9, 10], // from table in book appendix
+    fruits:
+      'In den nach dem Abfallen der Blüte stehen bleibenden Kelchen findet man die Samen, welche gesammelt und nachgetrocknet werden können. Im Winter können sie auf der Fensterbank als frische Keimlinge für Salate dienen.',
+    'months-roots': [9, 10], // from table in book appendix
+    roots:
+      'Die neuen Wurzeln der Triebausläufer verwendet man vorwiegend im Herbst als rohe Knabberei, in Salaten oder Suppen.',
+    medicinal:
+      'Blüten und Kraut werden arzneilich verwendet. In der Naturheilkunde gilt die Pflanze als belebend, entzündungshemmend, wirksam gegen Bakterien, schleimhautschützend, blutstillend, verdauungsfördernd und harntreibend. Entsprechend vielseitig ist die Anwendung: Zur Schleimlösung bei Katarrhen und Bronchitis, bei Beschwerden im Magen-Darm-Trakt, Gicht und Fieber. Äusserlich helfen Umschläge bei Hautschwellungen, Juckreiz, Nagelbettentzündungen, Beulen und Krampfadern.',
+    indicator:
+      'An nährstoffreichen Standorten, beispielsweise in Hecken und an Waldrändern. Sie bevorzugt frische bis feuchte Ruderalstellen. Man findet sie im Halbschatten von Gebüschen und Hecken, an Waldsäumen, Mauern und Straßengräben sowie in frischen Edellaubwäldern. Sie ist von der Ebene bis in Höhenlagen von etwa 2000 Meter anzutreffen.',
+    ellenberg: {
+      L: '5',
+      T: 'x',
+      K: '4',
+      F: '6',
+      R: '7',
+      N: '8',
+      S: '0',
+      LF: 'H',
+      LF_B: 'S'
+    }
+  },
+  {
+    id: 'lamiumAlbumL',
+    name: 'Weisse Taubnessel',
+    latin: 'Lamium Album L.',
+    'family-name': 'Lippenblütengewächse',
+    'family-latin': 'Lamiaceae',
+    images: [
+      'Lamium_album_LC0137-JoergHempel-wikipedia.jpg',
+      'Lamium_album_Sturm39.jpg',
+      'Lamium_album_001-hZell-wikipedia.jpg'
+    ],
+    description:
+      'Die Weiße Taubnessel ist eine ausdauernde krautige Pflanze, die Wuchshöhen von 20 bis 70 Zentimetern erreicht. Am vierkantigen Stängel stehen kreuzgegenständig die gesägten und gestielten Laubblätter. Die Blütezeit reicht von April bis Oktober. Sie hat im Gegensatz zur Brennnessel keine Brennhaare und ist auch nicht direkt mit ihr verwandt. Die Ähnlichkeit der Blattform zur Brennnessel hat jedoch der Gattung den deutschen Namensteil „Nessel“ eingebracht. ',
+    'months-edible': [2, 3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    taste:
+      'Das Taubnesselkraut, die Keimlinge und die feinen Wurzeln haben einen feinwürzigen Pilzgeschmack. Die Behaarung ist an zarten Pflanzenteilen nicht störend. Andere mitteleuropäische Taubnesselarten sind ebenso verwendbar.',
+    'months-flowers': [4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    flowers:
+      'Die Blüten eignen sich für süsse Desserts, aber auch zusammen mit den Blättern als dekoratives Gewürz in herzhaft bunter Kräuterbutter und als krönender Abschluss über Salaten.',
+    'months-leaves': [2, 3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
+    leaves:
+      'Das Kraut der Taubnesseln ist uns nahezu die ganze Vegetationsperiode über als hervorragende Grundlage für schmackhafte, aromatische Teemischungen bekannt. Besonders junge Blätter und Triebspitzen bieten sich vor der Blüte ab Februar und noch während der Hauptblüte im April als Salat an. Als Gemüse gekocht sind die Blätter und Triebspitzen relativ mild und besonders gut als Suppengemüse geeignet. Sie können auch als spinatähnliches Gemüse oder als Hauptgemüsezutat eines Auflaufes zubereitet werden.',
+    'months-fruits': [5, 6, 7, 8, 9, 10, 11], // from table in book appendix
+    fruits:
+      'In den nach dem Abfallen der Blüte stehen bleibenden Kelchen findet man die Samen, welche gesammelt und nachgetrocknet werden können. Im Winter können sie auf der Fensterbank als frische Keimlinge für Salate dienen.',
+    'months-roots': [9, 10], // from table in book appendix
+    roots:
+      'Die neuen Wurzeln der Triebausläufer verwendet man vorwiegend im Herbst als rohe Knabberei, in Salaten oder Suppen.',
+    medicinal:
+      'Blüten und Kraut werden arzneilich verwendet. In der Naturheilkunde gilt die Pflanze als belebend, entzündungshemmend, wirksam gegen Bakterien, schleimhautschützend, blutstillend, verdauungsfördernd und harntreibend. Entsprechend vielseitig ist die Anwendung: Zur Schleimlösung bei Katarrhen und Bronchitis, bei Beschwerden im Magen-Darm-Trakt, Gicht und Fieber. Äusserlich helfen Umschläge bei Hautschwellungen, Juckreiz, Nagelbettentzündungen, Beulen und Krampfadern.',
+    indicator:
+      'An nährstoffreichen Lehmböden bis in etwa 1700 m Höhe. Die winterharten Taubnesseln wachsen am Weg- und Wiesenrand sowie in Gräben, Hecken und auf Schuttplätzen. Sie wächst besonders auf stickstoffreichem Boden. Nach Ellenberg ist die Weiße Taubnessel eine Halblichtpflanze, ein Frischezeiger, an übermäßig stickstoffreichen Standorten wachsend.',
+    ellenberg: {
+      L: '7',
+      T: 'x',
+      K: '3',
+      F: '5',
+      R: 'x',
+      N: '9',
+      S: '0',
+      LF: 'H',
+      LF_B: 'S'
+    }
   }
 ];
 
