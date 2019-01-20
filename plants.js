@@ -643,7 +643,7 @@ const plants = [
       'Lamium_album_001-hZell-wikipedia.jpg'
     ],
     description:
-      'Die Weiße Taubnessel ist eine ausdauernde krautige Pflanze, die Wuchshöhen von 20 bis 70 Zentimetern erreicht. Am vierkantigen Stängel stehen kreuzgegenständig die gesägten und gestielten Laubblätter. Die Blütezeit reicht von April bis Oktober. Sie hat im Gegensatz zur Brennnessel keine Brennhaare und ist auch nicht direkt mit ihr verwandt. Die Ähnlichkeit der Blattform zur Brennnessel hat jedoch der Gattung den deutschen Namensteil „Nessel“ eingebracht. ',
+      'Die Weiße Taubnessel ist eine ausdauernde krautige Pflanze, die Wuchshöhen von 20 bis 70 Zentimetern erreicht. Am vierkantigen Stängel stehen kreuzgegenständig die gesägten und gestielten Laubblätter. Die Blütezeit reicht von April bis Oktober. Sie hat im Gegensatz zur Brennnessel keine Brennhaare und ist auch nicht direkt mit ihr verwandt. Die Ähnlichkeit der Blattform zur Brennnessel hat jedoch der Gattung den deutschen Namensteil „Nessel“ eingebracht. Traditionell werden Taubnesseln in Europa schon sehr lange verwendet. In der altchinesischen Kultur sind sie auch wohlbekannt und werden dort „Kraut der lächelnden Mutter“ genannt, denn sie sind besonders gut für Frauen geeignet. Neben der heilkundlichen Anwendung lassen sie sich ebenso als vielfältiges Nahrungsmittel nutzen.',
     'months-edible': [2, 3, 4, 5, 6, 7, 8, 9, 10], // from table in book appendix
     taste:
       'Das Taubnesselkraut, die Keimlinge und die feinen Wurzeln haben einen feinwürzigen Pilzgeschmack. Die Behaarung ist an zarten Pflanzenteilen nicht störend. Andere mitteleuropäische Taubnesselarten sind ebenso verwendbar.',
@@ -660,7 +660,7 @@ const plants = [
     roots:
       'Die neuen Wurzeln der Triebausläufer verwendet man vorwiegend im Herbst als rohe Knabberei, in Salaten oder Suppen.',
     medicinal:
-      'Blüten und Kraut werden arzneilich verwendet. In der Naturheilkunde gilt die Pflanze als belebend, entzündungshemmend, wirksam gegen Bakterien, schleimhautschützend, blutstillend, verdauungsfördernd und harntreibend. Entsprechend vielseitig ist die Anwendung: Zur Schleimlösung bei Katarrhen und Bronchitis, bei Beschwerden im Magen-Darm-Trakt, Gicht und Fieber. Äusserlich helfen Umschläge bei Hautschwellungen, Juckreiz, Nagelbettentzündungen, Beulen und Krampfadern.',
+      'Blüten und Kraut werden arzneilich verwendet. In der Naturheilkunde gilt die Pflanze als belebend, entzündungshemmend, wirksam gegen Bakterien, schleimhautschützend, blutstillend, verdauungsfördernd und harntreibend. Entsprechend vielseitig ist die Anwendung: Zur Schleimlösung bei Katarrhen und Bronchitis, bei Beschwerden im Magen-Darm-Trakt, Gicht und Fieber. Äusserlich helfen Umschläge bei Hautschwellungen, Juckreiz, Nagelbettentzündungen, Beulen und Krampfadern. Ein Tee aus den Blüten hilft bei verschiedenen Frauenleiden. Besonders gut ist er für Mädchen und junge Frauen bei Weißfluss und unregelmäßiger sowie schmerzhafter Regel geeignet. Häufig verwendet man die Taubnessel gemeinsam mit anderen Frauenheilkräutern.',
     indicator:
       'An nährstoffreichen Lehmböden bis in etwa 1700 m Höhe. Die winterharten Taubnesseln wachsen am Weg- und Wiesenrand sowie in Gräben, Hecken und auf Schuttplätzen. Sie wächst besonders auf stickstoffreichem Boden. Nach Ellenberg ist die Weiße Taubnessel eine Halblichtpflanze, ein Frischezeiger, an übermäßig stickstoffreichen Standorten wachsend.',
     ellenberg: {
@@ -673,7 +673,11 @@ const plants = [
       S: '0',
       LF: 'H',
       LF_B: 'S'
-    }
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/weisse-taubnessel/'
+    ],
+    colors: ['weiss']
   }
 ];
 
