@@ -363,6 +363,48 @@ const plants = [
     }
   },
   {
+    id: 'potentillaAnserinaL',
+    name: 'Gänse-Fingerkraut',
+    latin: 'Potentilla Anserina L.',
+    'family-name': 'Rosengewächse',
+    'family-latin': 'Rosaceae',
+    images: [
+      'Zilverschoon_plant_Potentilla_anserina-Rasbak-wikipedia.jpg',
+      'Illustration_Potentilla_anserina0.jpg'
+    ],
+    description:
+      'Das Gänsefingerkraut, auch Anserine, Dreckkraut, Gänserich, Gänsewiß, Grensel, Martinshand, Silberblatt, Säukraut oder Krampfkraut genannt, ist eine kriechende, ausdauernde krautige Pflanze, die Wuchshöhen von nur 10 bis 20 Zentimetern erreicht. Die Blütezeit reicht von Mai bis September.',
+    'months-edible': [], // from table in book appendix
+    taste:
+      'Die Blätter sind leicht säuerlich herb und lassen sich schwer kauen. Die Wurzeln schmecken roh leicht nussig, gegart werden sie süsser, fast möhrenähnlich.',
+    'months-flowers': [5, 6, 7, 8, 9], // from table in book appendix
+    flowers:
+      'Die Blütenblätter eignen sich als essbare Dekoration auf Brotzeittellern.',
+    'months-leaves': [4, 5], // from table in book appendix
+    leaves:
+      'Die jungen, silbrig behaarten, fiedrigen Blätter gehackt in Kräutermischungen, Kräuterkäse Salate  und Salatsaucen. Man kennt sie aber auch in Öl gedünstet oder als Kräuterpüree. Auch zur Teebereitung lassen sich die Blätter verwenden.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [1, 2, 3, 4, 9, 10, 11, 12], // from table in book appendix
+    roots:
+      'Die Knollenartigen Wurzeln können roh, beispielsweise in Salate geraspelt oder gegart zu Gemüseeintöpfen, Backgemüse und auch nach dem Garen sauer eingelegt werden. Getrocknet kann man sie zu Mehl mahlen und damit Fonds und Gemüsebreie bereiten. Das Mehl lässt sich zusammen mit Getreidemehl für süsse Backwaren verwenden.',
+    medicinal:
+      'Die Fingerkräuter sind seit alters bekannte Heilpflanzen. Das Kraut wirkt adstringierend und hat eine schmerzstillende und durchfallhemdene Wirkung. Wissenschaftlich anerkannt ist die innerliche Anwendung zur unterstützenden Behandlung von unspezifischen Durchfallerkrankungen, Bauch- und Unterleibsbeschwerden, auch bei schmerzhafter Menstruation, insbesonsere wenn sie mit Krämpfen einhergehen. Ausserdem zum Gurgeln bei Blutungen und Entzündungen der Mundschleimbhaut und des Zahnfleisches. Für einen Tee übergiesst man 2 Teelöffel getrocknetes Kraut mit 250ml kochendem Wasser und lässt den Aufguss 10 Minuten ziehen. Volksmedizinisch werden die Wurzeln zum Beispiel bei Zahnfleischentzündung gekaut. Bei Reizmagen-Patienten können sich die Beschwerden durch die innerliche Anwendung von Gänse-Fingerkraut verstärken!',
+    indicator:
+      'Auf nährstoffreichen, oftmals verdichteten Lehm- und Tonböden an Wegen und Ufern bis in etwa 1000 m Höhe. Unempfindlich gegen Streusalz. Vor allem auf nährstoffreichen Wiesen (Gänseweiden), auf Äckern und an Wegrändern kommt das Gänsefingerkraut bestandsbildend vor. Es siedelt verbreitet in frischen Pionierrasen, an Wegen, Ufern, in Gänseangern, vor allem in Dörfern. Es bevorzugt dichten, feuchten, stickstoffreichen, lehmig-tonigen Boden und geht auch auf steinigen Untergrund.',
+    ellenberg: {
+      L: '7',
+      T: '6',
+      K: 'x',
+      F: '6~',
+      R: 'x',
+      N: '7',
+      S: '1',
+      LF: 'H',
+      LF_B: 'S'
+    }
+  },
+  {
     id: 'oxalisAcetosellaL',
     name: 'Waldsauerklee',
     latin: 'Oxalis Acetosella L.',

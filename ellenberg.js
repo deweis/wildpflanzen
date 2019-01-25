@@ -87,6 +87,11 @@ const data = {
         'Zwischen 5 (<b>Frischezeiger</b>) und 7 (<b>Feuchtezeiger</b>) stehend.'
     },
     {
+      indicator: '6~',
+      description:
+        'Zwischen 5 (<b>Frischezeiger</b>) und 7 (<b>Feuchtezeiger</b>) stehend.<br><b>~</b> Zeiger für starken Wechsel.'
+    },
+    {
       indicator: '7',
       description:
         '<b>Feuchtezeiger</b>, Schwerpunkt auf gut durchfeuchteten, aber nicht nassen Böden.'
