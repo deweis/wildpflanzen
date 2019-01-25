@@ -373,7 +373,7 @@ const plants = [
       'Illustration_Potentilla_anserina0.jpg'
     ],
     description:
-      'Das Gänsefingerkraut, auch Anserine, Dreckkraut, Gänserich, Gänsewiß, Grensel, Martinshand, Silberblatt, Säukraut oder Krampfkraut genannt, ist eine kriechende, ausdauernde krautige Pflanze, die Wuchshöhen von nur 10 bis 20 Zentimetern erreicht. Die Blütezeit reicht von Mai bis September.',
+      'Das Gänsefingerkraut, auch Anserine, Dreckkraut, Gänserich, Gänsewiß, Grensel, Martinshand, Silberblatt, Säukraut oder Krampfkraut genannt, ist eine kriechende, ausdauernde krautige Pflanze, die Wuchshöhen von nur 10 bis 20 Zentimetern erreicht. Die Blütezeit reicht von Mai bis September. Das Gänsefingerkraut ist ein vielseitiges Nahrungsmittel und zudem ein starkes Heilmittel bei Krämpfen. Tiere, besonders Gänse, mögen Gänsekraut sehr gern und so mancher Landwirt kennt das Kraut als Wundheilmittel für seine Tiere. Alle Teile vom Vitamin-C-reichen Gänsefingerkraut eignen sich als Nahrungsmittel.',
     'months-edible': [], // from table in book appendix
     taste:
       'Die Blätter sind leicht säuerlich herb und lassen sich schwer kauen. Die Wurzeln schmecken roh leicht nussig, gegart werden sie süsser, fast möhrenähnlich.',
@@ -402,7 +402,11 @@ const plants = [
       S: '1',
       LF: 'H',
       LF_B: 'S'
-    }
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/gaensefingerkraut/'
+    ],
+    colors: ['gelb']
   },
   {
     id: 'oxalisAcetosellaL',
