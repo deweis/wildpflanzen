@@ -373,8 +373,8 @@ const plants = [
       'Illustration_Potentilla_anserina0.jpg'
     ],
     description:
-      'Das Gänsefingerkraut, auch Anserine, Dreckkraut, Gänserich, Gänsewiß, Grensel, Martinshand, Silberblatt, Säukraut oder Krampfkraut genannt, ist eine kriechende, ausdauernde krautige Pflanze, die Wuchshöhen von nur 10 bis 20 Zentimetern erreicht. Die Blütezeit reicht von Mai bis September. Das Gänsefingerkraut ist ein vielseitiges Nahrungsmittel und zudem ein starkes Heilmittel bei Krämpfen. Tiere, besonders Gänse, mögen Gänsekraut sehr gern und so mancher Landwirt kennt das Kraut als Wundheilmittel für seine Tiere. Alle Teile vom Vitamin-C-reichen Gänsefingerkraut eignen sich als Nahrungsmittel.',
-    'months-edible': [], // from table in book appendix
+      'Das Gänsefingerkraut, auch Anserine, Dreckkraut, Gänserich, Gänsewiß, Grensel, Martinshand, Silberblatt, Säukraut oder Krampfkraut genannt, ist eine kriechende, ausdauernde krautige Pflanze, die Wuchshöhen von nur 10 bis 30 Zentimetern erreicht. Die Blütezeit reicht von Mai bis September. Das Gänsefingerkraut ist ein vielseitiges Nahrungsmittel und zudem ein starkes Heilmittel bei Krämpfen. Tiere, besonders Gänse, mögen Gänsekraut sehr gern und so mancher Landwirt kennt das Kraut als Wundheilmittel für seine Tiere. Alle Teile vom Vitamin-C-reichen Gänsefingerkraut eignen sich als Nahrungsmittel.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], // from table in book appendix
     taste:
       'Die Blätter sind leicht säuerlich herb und lassen sich schwer kauen. Die Wurzeln schmecken roh leicht nussig, gegart werden sie süsser, fast möhrenähnlich.',
     'months-flowers': [5, 6, 7, 8, 9], // from table in book appendix
@@ -724,6 +724,53 @@ const plants = [
       'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/weisse-taubnessel/'
     ],
     colors: ['weiss']
+  },
+  {
+    id: 'primulaVeris',
+    name: 'Echte Schlüsselblume',
+    latin: 'Primula veris',
+    'family-name': 'Primelgewächse',
+    'family-latin': 'Primulaceae',
+    images: [
+      'Primula_veris_0xAlvals-wikipedia.jpg',
+      'Illustration_Primula_veris0.jpg',
+      'Primula_veris_170405-wikipedia.jpg'
+    ],
+    description:
+      'Die Echte Schlüsselblume, auch Wiesen-Primel, Frühlings-Schlüsselblume (Schweiz), Wiesen-Schlüsselblume, Arznei-Schlüsselblume und Himmelsschlüssel genannt, ist eine ausdauernde, krautige Pflanze, die Wuchshöhen von 8 bis 30 Zentimetern erreicht und meist in kleineren und größeren Gruppen anzutreffen ist. Sie überwintert mit einem ausdauernden, dicken, kurzen Rhizom. Die vegetativen Pflanzenteile sind oft flaumig behaart aber nicht bemehlt. Schlüsselblumen gehören mit zu den ersten Frühlingsblühern und sind mancherorts schon im Februar zu finden. Leider sind sie durch extreme Überdüngung selten geworden und stehen heute unter Naturschutz. Deshalb ist beim Sammeln besondere Achtsamkeit und das Beachten von Naturschutzregeln zu berücksichtigen.<br>Im Volksglauben galt die Echte Schlüsselblume als Schutz- und Fruchtbarkeitsmittel.',
+    'months-edible': [2, 3, 4, 5, 6], // from kostbarenatur.net
+    taste:
+      'Besonders die Blüten schmecken honigsüß. <br>Die Schlüsselblumen helfen uns dabei, Magnesium besser aufzunehmen und können so einem Mangel vorbeugen. Hierfür eignet sich eine Kombination mit mangnesiumreichen Wildpflanzen wie dem Weißen Gänsefuß, Brennnessel, Bärenklau, Schlangenknöterich und guter Heinrich.',
+    'months-flowers': [2, 3, 4, 5, 6],
+    flowers:
+      'Als Dekoration für Süßspeisen. Desweiteren ist es auch möglich, sie zu kandieren und als Süßigkeit zu vernaschen.',
+    'months-leaves': [2, 3, 4, 5, 6],
+    leaves:
+      'Junge Blätter eignen sich für Salate oder sie werden wie Spinat gekocht. Gemischt mit anderem Gemüse sind sie ebenfalls gut zu verwenden.',
+    'months-fruits': [],
+    fruits: '',
+    'months-roots': [],
+    roots: '',
+    medicinal:
+      'Viele alte Kräuterkundige priesen die Schlüsselblume als heilkräftiges Kraut. Für Hildegard v. Bingen gehörte sie zu den Wärme gebenden Pflanzen. Sie setzte Schlüsselblumen bei Depressionen, Melancholie und Kopfschmerzen ein. Laut Culpepper mindert sie Schwindel, Fallsucht und Lähmungen. Kräuterpfarrer Künzle empfahl sie bei Erkältungen und Rheuma. Hieronymus Bock setzte dieses Kraut zudem als Kräftigungsmittel für schwache und kranke Menschen ein.',
+    indicator:
+      'In lichten Wälder, Magerwiesen, Gräben, unter Obstbäumen. Die Echte Schlüsselblume gedeiht am besten auf kalkhaltigen, stickstoffarmen, lockeren Lehmböden mit reichlicher Humusbeimischung. Sonnig bis halbschattig. Nicht zu verwechseln ist die echte Schlüsselblume (Primula veris) mit der hohen Schlüsselblume (Primula elatior), die im Gegensatz an feuchten Standorten wie Bachläufen, feuchteren Waldgebieten oder an Fluss- und Seeufern zu finden ist.',
+    ellenberg: {
+      L: '7',
+      T: 'x',
+      K: '3',
+      F: '4',
+      R: '8',
+      N: '3',
+      S: '0',
+      LF: 'H',
+      LF_B: 'W'
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/echte-schluesselblume/',
+      'https://www.kraeuter-buch.de/kraeuter/Schluesselblume.html'
+    ],
+    colors: ['gelb']
   }
 ];
 
