@@ -771,6 +771,52 @@ const plants = [
       'https://www.kraeuter-buch.de/kraeuter/Schluesselblume.html'
     ],
     colors: ['gelb']
+  },
+  {
+    id: 'armoraciaRusticanaGMSch',
+    name: 'Gewöhnlicher Meerrettich',
+    latin: 'Armoracia rusticana G. M. Sch.',
+    'family-name': 'Kreuzblütengewächse',
+    'family-latin': 'Brassicaceae',
+    images: [
+      'Armoracia_rusticana-RadioTonreg.jpg',
+      'Meerrettich.jpg',
+      'ArmoraciaRusticana-Christian Fischer.jpg'
+    ],
+    description:
+      'Der Meerrettich wächst als ausdauernde krautige Pflanze und erreicht Wuchshöhen von 50 bis 120 (selten bis 200) Zentimeter. Diese winterharte Pflanze hält Temperaturen bis −50 °C aus. Als Überdauerungsorgan wird eine senkrechte, walzenförmige Pfahlwurzel gebildet, die eine Länge von 30 bis 40 Zentimeter und einen Durchmesser von 4 bis 6 Zentimeter erreicht. Der ursprünglich aus Südosteuropa stammende Meerrettich ist vielen als scharfe Gemüsebeilage zu Fleisch, als Salat und Gewürz bekannt. Früher wurde er jedoch eher als Heilpflanze genutzt. Er kommt sowohl kultiviert als auch wild auf nährstoffreichen Wiesen mit lehmigen Böden vor.',
+    'months-edible': [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12], // from table in book appendix
+    taste:
+      'Der Grundgeschmack der Pflanze ist kresseartig, allerdings wesentlich intensiver und schärfer.',
+    'months-flowers': [5, 6, 7], // from table in book appendix
+    flowers: 'Als scharfe essbare Dekoration.',
+    'months-leaves': [3, 4, 5], // from table in book appendix
+    leaves:
+      'Die jungen, frisch gehackten Blätter als Gewürz zu vielen Speisen.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [1, 2, 3, 9, 10, 11, 12], // from table in book appendix
+    roots:
+      'Die frisch geriebenen Wurzeln des Merrrettichs als Gewürz. Man nutzt sie roh, zum Einlegen, zu Saucen und als Kochgemüse. Gelagert werden kann sie entweder in einer kühlstehenden Kiste mit feuchtem Sand oder im Kühlschrank bei Minus zwei Grad.',
+    medicinal:
+      'Die scharf schmeckenden Inhaltsstoffe des Meerrettichs regen die Ausschüttung von Verdauungssäften an. Die Senfölglykoside wirken antimikrobiell und bedingen den Einsatz der Pflanze als pflanzliches Antibiotikum bei Infektionen der Atemwege und der ableitenden Harnwege. Äusserlich nutzt man die hautreizende und durchblutungsfördernde Wirkung bei infizierten Wunden, Kopfschmerzen, Rheuma und Insektenstichen. Die Homöopathie wendet die Pflanze bei Bauchkrämpfen und Entzündungen der Augen und Atemwege an.',
+    indicator:
+      'Auf feuchten Wiesen, in der Nähe von Fließgewässern, staudenreichen Wildkrautfluren und am Wegesrand auf nährstoffreichen und tiefgründigen Lehmböden bis in 750 m Höhe, oft in Gesellschaft mit Brennnesseln und Gutem Heinrich zu finden.',
+    ellenberg: {
+      L: '8',
+      T: '6',
+      K: '3',
+      F: '5',
+      R: 'x',
+      N: '9',
+      S: '0',
+      LF: 'G',
+      LF_B: 'S'
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/meerrettich/'
+    ],
+    colors: ['gelb']
   }
 ];
 
