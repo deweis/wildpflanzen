@@ -817,6 +817,51 @@ const plants = [
       'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/meerrettich/'
     ],
     colors: ['gelb']
+  },
+  {
+    id: 'fragariaVescaL',
+    name: 'Wald-Erdbeere',
+    latin: 'Fragaria Vesca L.',
+    'family-name': 'Rosengewächse',
+    'family-latin': 'Rosaceae',
+    images: [
+      'Fragaria_vesca_LC0389.jpg',
+      'Illustration_Fragaria_vesca0.jpg',
+      'Fragaria_vesca2-kenpei-wiki.jpg'
+    ],
+    description:
+      'Die Wald-Erdbeere, auch Monatserdbeere genannt, dient dem Menschen schon lange als Nahrung, wie auch die botanische Artbezeichnung ausdrückt (vesca = essbar). Sie ist eine wintergrüne, mehrjährige krautige Pflanze, erreicht Wuchshöhen von meist 5 bis 25 Zentimetern und ist damit im Wuchs kleiner als die Gartenerdbeere.',
+    'months-edible': [3, 4, 5, 6, 7, 8, 9], // from table in book appendix
+    taste:
+      'Die Blätter und Blüten haben einen leicht säuerlich grünteeartigen Geschmack. Die Beeren sind aromatischer als die handelsüblichen Erdbeeren. Alle anderen mitteleuropäischen Erdbeerarten (Fragaria) sind in gleicher Weise verwendbar.',
+    'months-flowers': [4, 5], // from table in book appendix
+    flowers:
+      'Als Tee oder mit Zuckerwasser besprüht im Backofen langsam bei geringer Temperatur getrocknet als Süssigkeit.',
+    'months-leaves': [3, 4, 5, 6, 7, 8, 9], // from table in book appendix
+    leaves:
+      'Die noch weichen, jungen Blätter können als Zutat in verschiedene Salate, Gemüsegerichte und Gemüsefüllungen gegeben werden. Auch in Kräuterquark und Pesto lassen sie sich mischen. Die etwas festeren Blätter gebraucht man eher zur Teebereitung, fermentiert können sie als koffeinfreier Ersatz für schwarzen Tee genommen werden.',
+    'months-fruits': [6, 7], // from table in book appendix
+    fruits:
+      'Die aromatischen Erdbeeren können zu Gelee und Fruchtaufstrichen, in Speiseeis, Obstquark und ähnlichen süssen Desserts verarbeitet werden. Ausgepresst als Fruchtsaft, auch zu Wein und Spirituosen weiterverarbeitet. Getrocknete Früchte eignen sich zur Teebereitung.',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Blätter: Wegen ihres hohen Gerbstoffgehalts werden die Blätter arzneilich verwendet. Als Tee mit milder Wirkung bei Durchfall und als Gurgelmittel bei Entzündungen im Hals und Rachenraum. Ausserdem wirken sie harntreibend und adstringierend. Die Wurzeln haben ein ähnliches Wirkungsspektrum. Volksmedizinisch bei Nervosität, Blutarmut, Erkältungskrankehiten und Erkrankungen der Leber und der Harnwege. Die Früchte der Erdbeere sind in ihrer Heilwirkung den Blättern überlegen, und sie schmecken besser. Sie wirken harntreibend und erfrischend und werden diätetisch bei Gicht, Lungentuberkulose und Arthritis empfohlen. Volksmedizinisch werden sie bei Leber- und Gallenleiden, Herzbeschwerden, Nierensteinen, zur Blutbildung und bei Hautunreinheiten angewendet. Sie wecken die Lebensgeister und helfen bei Fieber und Verstopfung. Die positive Wirkung auf Leber und Galle wurde inzwischen wissenschaftlich untermauert.',
+    indicator:
+      'Auf Waldlichtungen mit nährstoffreichen Lehmböden. Sie wächst bevorzugt in lichten Laub- und Nadelwäldern sowie entlang der Waldränder. Die Wald-Erdbeere bevorzugt sonnige bis absonnige Standorte und benötigt feuchte, aber gut durchlässige, nährstoff- und humusreiche Böden.',
+    ellenberg: {
+      L: '7',
+      T: 'x',
+      K: '5',
+      F: '5',
+      R: 'x',
+      N: '6',
+      S: '0',
+      LF: 'H',
+      LF_B: 'W'
+    },
+    links: [],
+    colors: ['weiss']
   }
 ];
 
@@ -851,6 +896,8 @@ const plants = [
       'S': 'x',
       'LF': 'x',
       'LF_B': 'x'
-    }
-  }
+    },
+    links: [],
+    colors: []
+  },
 */
