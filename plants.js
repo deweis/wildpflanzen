@@ -451,6 +451,53 @@ const plants = [
     }
   },
   {
+    id: 'trifoliumPratenseL',
+    name: 'Rotklee',
+    latin: 'Trifolium Pratense L.',
+    'family-name': 'Schmetterlingsblütengewächse',
+    'family-latin': 'Fabaceae',
+    images: [
+      'Trifolium_pratense-wiki-IvarLeidus.jpg',
+      'Illustration_Trifolium_pratense.jpg',
+      'Trifolium_pratense-wiki-IvarLeidus2.jpg'
+    ],
+    description:
+      'Der Rotklee, auch Wiesenklee genannt, ist eine ein- bis zweijährige oder überwinternd grüne, ausdauernde krautige Pflanze, die Wuchshöhen von 15 bis 80 Zentimeter erreicht. Die Blütezeit reicht von April/Mai bis September.<br>Übrigens, Weißer Klee (Triofolium repens) kann genauso verwendet werden.',
+    'months-edible': [3, 4, 5, 6, 7, 8, 9], // from table in book appendix
+    taste:
+      'Der Grundgeschmack der Blätter erinnert an Erbsengemüse oder Feldsalat. Die Blüten sind süss.',
+    'months-flowers': [5, 6, 7, 8, 9], // from table in book appendix
+    flowers:
+      'Als Dekoration für Salate und Gemüsegerichte. Man kann die Blüten aber auch in Teig einkneten, herzhaft würzen und als Bratlinge ausbacken oder als Aroma in Spirituosen und Tees verwenden. Die ganzen Blütenköpfchen verarbeitet man auch in Mehl gestampft zu Knäckebrot.',
+    'months-leaves': [3, 4, 5, 6], // from table in book appendix
+    leaves:
+      'Junge Triebe und Blätter als Bestandteil von Frühjahrssuppen und Hackkräutermischungen in Salaten. Auch in Gemüse- und Spinatgerichten oder in Kräuterquark und Kräuterkäse. Ebenfalls zur Teebereitung, als Sauerkraut vergoren und würzig mariniert verwendet.',
+    'months-fruits': [8, 9], // from table in book appendix
+    fruits:
+      'Die Samen kann man zu Mehl schroten oder den Winter über auf der Fensterbank als Vitaminquelle keimen lassen.',
+    'months-roots': [], // from table in book appendix
+    roots: '',
+    medicinal:
+      'Volksmedizinisch bei Durchfällen, Husten und chronischen Hauterkrankungen. Extrakte des Rotklees bei Wechseljahrbeschwerden aufgrund der enthaltenen Iso flavone. Diese Phytoöstrogene spielen darüber hinaus eine Rolle bei der Vorbeugung hormonabhängiger Krebserkrankungen, insbesondere der Brust, der Gebärmutter und der Prostata. Der Tee (3 TL Blüten pro Tasse) wirkt blutreinigend und kann auch zum Erfrischen übermüdeter Augen verwendet werden.',
+    indicator:
+      'Auf Wiesen mit tiefgründigen Lehm- und Tonböden in wintermilder Klimalage bis über 2000 m Höhe. Nährstoffzeiger, wurzelt bis 2 Meter tief. Rotklee reichert Stickstoff im Boden an und gilt als sehr guter Bodenverbesserer. Er ist als Vorfrucht und zur Gründüngung geeignet.',
+    ellenberg: {
+      L: '7',
+      T: 'x',
+      K: '3',
+      F: '5',
+      R: 'x',
+      N: 'x',
+      S: '0',
+      LF: 'H',
+      LF_B: 'W'
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/rotklee/'
+    ],
+    colors: ['rot', 'rosa']
+  },
+  {
     id: 'stellariaMediaAgg',
     name: 'Vogelmiere',
     latin: 'Stellaria Media agg.',
