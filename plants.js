@@ -909,6 +909,55 @@ const plants = [
     },
     links: [],
     colors: ['weiss']
+  },
+  {
+    id: 'ranunculusFicariaL',
+    name: 'Gewöhnliches Scharbockskraut',
+    latin: 'Ranunculus Ficaria L.',
+    'family-name': 'Hahnenfussgewächse',
+    'family-latin': 'Ranunculaceae',
+    images: [
+      'Ficaria_verna_H_Zell.jpg',
+      'Ranunculus_ficaria_nf.jpg',
+      'RanunculusFicaria_DWE_20190303.jpg'
+    ],
+    description:
+      'Das flach wachsende Scharbockskraut gehört im Frühjahr zu den ersten, welche ihre kleinen, saftigen Blätter und etwas später auch die Blüten der Sonne entgegen strecken. Es breitet sich teppichartig in Gärten, Parks und lichten Laubwäldern aus. Für Bienen und andere Insekten ist Scharbockskraut eine wichtige Futterpflanze. Das Scharbockskraut ist eine frühjahrsgrüne, ausdauernde, krautige Pflanze, die Wuchshöhen von 10 bis 20 cm erreicht. Es werden jährlich neu etwa 1 bis 2 cm lange, feigwarzen-ähnliche Wurzelknollen als Stärkespeicher gebildet. Die Erneuerungsknospen bilden sich an dem dicht unter der Oberfläche liegenden Rhizom. Der niederliegende bis aufsteigende, hohle Stängel ist kahl. Das Scharbockskraut ist schwerpunktmäßig in Nord- und Mitteleuropa beheimatet. Die Blütezeit ist von März bis Mai.',
+    'months-edible': [3, 4, 5, 6], // from table in book appendix
+    taste:
+      'Die Blätter haben einen leicht sauerscharfen Geschmack. Die Wurzeln und Brutknöllchen schmecken hingegen roh nussig, stärkereich.<br><b>Hinweis!</b> Man sollte die Pflanze wegen des enthaltenen Protoanemonins nicht in grossen Mengen konsumieren. Im Verhältnis zu anderen Pflanzenteilen enthalten die Blätter nur sehr wenig Protoanemonin (3% der gesamthaft enthaltenen Menge); nach der Blüte nimmt der Gehalt des Stoffes in den Blättern zu. Sie sollten dann nicht mehr verzehrt werden, da es sonst zu Reizungen der Schleimhäute kommen kann.<br><b>Verwechslung!</b> Es besteht eine Verwechlungsgefahr mit der giftigen Haselwurz, welche aber im Gegensatz zum unbehaarten Scharbockskraut an allen Pflanzenteilen behaart ist.',
+    'months-flowers': [4], // from table in book appendix
+    flowers:
+      'Blütenknospen wie Blätter in Öl oder Essigwasser einlegen, nachdem sie in Salz gezogen haben.',
+    'months-leaves': [3, 4], // from table in book appendix
+    leaves:
+      'Die jungen, glänzenden Blätter gehackt in Kräutermischungen, Kräuterkäse, Salate und Salatsaucen, aber auch in Kräuterpüree und schaft gewürzt zu Bratgerichten. Zur Bevorratung lässt man sie mit Salz zwei bis drei Tage ziehen und legt sie in Öl. Wegen des steigenden Alkaloidgehalts sollte man sie nur vor der Blütezeit ernten.',
+    'months-fruits': [], // from table in book appendix
+    fruits: '',
+    'months-roots': [5, 6], // from table in book appendix
+    roots:
+      'Wurzelknöllchen und Blattachsel-Brutknöllchen wie Blätter in Öl oder Essigwasser einlegen, nachdem sie in Salz gezogen haben.',
+    medicinal:
+      'In früheren Zeiten wurde das Scharbockskraut wegen des hohen Vitamin-C-Gehalts bei Skorbut (Scharbock genannt) und Frühjahrsmüdigkeit gegessen. Die Pflanze reinigt das Blut und wird bei Hautunreinheiten und Hämorrhoiden angewendet. Der aus den Wurzelknöllchen gepresste Saft soll bei den durch Viren (HPV) verursachten Feigwarzen helfen.',
+    indicator:
+      'An nährstoffreichen und feuchten Standorten im Wald oder Gebüsch auf Lehm- und Tonböden bis in eine Höhe von etwa 1500 m. Nährstoffzeiger. Meist in feuchten Wiesen, Gebüschen, Hecken oder dichten Laubwäldern und an Laubwaldrändern und ist dort im Frühling anzutreffen. Dort bildet sie zumeist die erste grüne Bodenschicht (Krautschicht), noch bevor die Bäume ihre Blätter entwickeln.',
+    ellenberg: {
+      L: '4',
+      T: '5',
+      K: '3',
+      F: '6',
+      R: '7',
+      N: '7',
+      S: '0',
+      LF: 'G',
+      LF_B: 'V'
+    },
+    links: [
+      'https://www.kostbarenatur.net/anwendung-und-inhaltsstoffe/gewoehnliches-scharbockskraut/',
+      'https://www.pflanzen-vielfalt.net/wildpflanzen-a-z/%C3%BCbersicht-r-z/scharbockskraut/',
+      'https://www.youtube.com/watch?v=JFfBz-hO9Vo&list=PLHgyPG7hS3wcb9iALCs-DClUTvUaYHmhI&index=1'
+    ],
+    colors: ['gelb']
   }
 ];
 
